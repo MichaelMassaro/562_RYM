@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO: ADD targetNamespace="link to GitHub" and xmlns:RYM="link to GitHub" -->
+<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified">
+    <xsi:element name="releaseInfo">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:release" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:artist" minOccurs="1" maxOccurs="unbounded"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    <xsi:element name="release">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:releaseRYMIdentifier" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseType" minOccurs="1" maxOccurs="unbounded"/>
+                <xsi:element ref="RYM:releaseTitle" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseDate" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseGenres" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseDescriptors" minOccurs=""/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+</xsi:schema>
