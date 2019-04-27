@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TODO: ADD targetNamespace="link to GitHub" and xmlns:RYM="link to GitHub" -->
 <xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified" targetNamespace="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd" xmlns:RYM="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd">
+    
+    <xsi:element name="RYM">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:releaseInfo"></xsi:element>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    
     <xsi:element name="releaseInfo">
         <xsi:complexType>
             <xsi:sequence>
