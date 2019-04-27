@@ -49,8 +49,16 @@
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
-    
     <xsi:element name="releasePrimaryGenres">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:sequence>
+                    <xsi:element ref="RYM:releasePrimaryGenre" minOccurs="1" maxOccurs="unbounded"/>
+                </xsi:sequence>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    <xsi:element name="releasePrimaryGenre">
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:releasePrimaryGenreRYMIdentifier" minOccurs="1" maxOccurs="1"/>
@@ -64,6 +72,13 @@
     <xsi:element name="releasePrimaryGenreDescription" type="xsi:string"/>
     
     <xsi:element name="releaseSecondaryGenres">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:releaseSecondaryGenre" minOccurs="1" maxOccurs="unbounded"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+        <xsi:element name="releaseSecondaryGenre">
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:releaseSecondaryGenreRYMIdentifier" minOccurs="1" maxOccurs="1"/>
