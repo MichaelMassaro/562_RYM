@@ -39,7 +39,7 @@
     <xsi:element name="releaseRYMIdentifier" type="xsi:string"/>
     <xsi:element name="releaseType" type="xsi:string"/>
     <xsi:element name="releaseTitle" type="xsi:string"/>
-    <xsi:element name="releaseDate" type="xsi:date"/>
+    <xsi:element name="releaseDate" type="xsi:string"/>
     
     <xsi:element name="releaseGenres">
         <xsi:complexType>
