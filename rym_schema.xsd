@@ -4,7 +4,7 @@
     <xsi:element name="RYM">
         <xsi:complexType>
             <xsi:sequence>
-                <xsi:element ref="RYM:releaseInfo"></xsi:element>
+                <xsi:element ref="RYM:releaseInfo"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
@@ -44,7 +44,7 @@
     <xsi:element name="releaseGenres">
         <xsi:complexType>
             <xsi:sequence>
-                <xsi:element ref="RYM:releasePrimaryGenres" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:releasePrimaryGenres" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseSecondaryGenres" minOccurs="0" maxOccurs="1"/>
             </xsi:sequence>
         </xsi:complexType>
