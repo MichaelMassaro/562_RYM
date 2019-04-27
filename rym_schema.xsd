@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- TODO: ADD targetNamespace="link to GitHub" and xmlns:RYM="link to GitHub" -->
-<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified">
+<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified" targetNamespace="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd" xmlns:RYM="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd">
     <xsi:element name="releaseInfo">
         <xsi:complexType>
             <xsi:sequence>
@@ -9,6 +9,7 @@
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
+    
     <xsi:element name="release">
         <xsi:complexType>
             <xsi:sequence>
@@ -17,8 +18,184 @@
                 <xsi:element ref="RYM:releaseTitle" minOccurs="1" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseDate" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseGenres" minOccurs="1" maxOccurs="1"/>
-                <xsi:element ref="RYM:releaseDescriptors" minOccurs=""/>
+                <xsi:element ref="RYM:releaseDescriptors" minOccurs="0" maxOccurs="unbounded"/>
+                <xsi:element ref="RYM:releaseLanguage" minOccurs="0" maxOccurs="unbounded"/>
+                <xsi:element ref="RYM:releaseArt" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseTracks" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseLength" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseCredits" minOccurs="0" maxOccurs="1"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
+    
+    <xsi:element name="releaseRYMIdentifier" type="xsi:string"/>
+    <xsi:element name="releaseType" type="xsi:string"/>
+    <xsi:element name="releaseTitle" type="xsi:string"/>
+    <xsi:element name="releaseDate" type="xsi:date"/>
+    
+    <xsi:element name="releaseGenres">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:releasePrimaryGenres" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseSecondaryGenres" minOccurs="0" maxOccurs="1"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    
+    <xsi:element name="releasePrimaryGenres">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:releasePrimaryGenreRYMIdentifier" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:releasePrimaryGenreName" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:releasePrimaryGenreDescription" minOccurs="0" maxOccurs="1"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    <xsi:element name="releasePrimaryGenreRYMIdentifier" type="xsi:string"/>
+    <xsi:element name="releasePrimaryGenreName" type="xsi:string"/>
+    <xsi:element name="releasePrimaryGenreDescription" type="xsi:string"/>
+    
+    <xsi:element name="releaseSecondaryGenres">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:releaseSecondaryGenreRYMIdentifier" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseSecondaryGenreName" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseSecondaryGenreDescription" minOccurs="0" maxOccurs="1"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    <xsi:element name="releaseSecondaryGenreRYMIdentifier" type="xsi:string"/>
+    <xsi:element name="releaseSecondaryGenreName" type="xsi:string"/>
+    <xsi:element name="releaseSecondaryGenreDescription" type="xsi:string"/>
+    
+    <xsi:element name="releaseDescriptors" type="xsi:string"/>
+    <xsi:element name="releaseLanguage" type="xsi:language"/>
+    <xsi:element name="releaseArt" type="xsi:anyURI"/>
+    
+    <xsi:element name="releaseTracks">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:releaseTrack" minOccurs="1" maxOccurs="unbounded"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    <xsi:element name="releaseTrack">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:releaseTrackName" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseTrackPosition" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseTrackLength" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseTrackCredits" minOccurs="1" maxOccurs="1"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    <xsi:element name="releaseTrackName" type="xsi:string"/>
+    <xsi:element name="releaseTrackPosition" type="xsi:int"/>
+    <xsi:element name="releaseTrackLength" type="xsi:string"/>
+    <xsi:element name="releaseTrackCredits">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:releaseTrackCreditArtistName" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseTrackCreditArtistRYMIdentifier" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseTrackCreditRole" minOccurs="1" maxOccurs="unbounded"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    <xsi:element name="releaseTrackCreditArtistName" type="xsi:string"/>
+    <xsi:element name="releaseTrackCreditArtistRYMIdentifier" type="xsi:string"/>
+    <xsi:element name="releaseTrackCreditRole" type="xsi:string"/>
+    
+    <xsi:element name="releaseLength" type="xsi:string"/>
+    
+    <xsi:element name="releaseCredits">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:releaseCredit" minOccurs="1" maxOccurs="unbounded"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    <xsi:element name="releaseCredit">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:releaseCreditArtistName" minOccurs="1" maxOccurs="unbounded"/>
+                <xsi:element ref="RYM:releaseCreditRYMIdentifier" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseCreditRole" minOccurs="1" maxOccurs="unbounded"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    <xsi:element name="releaseCreditArtistName" type="xsi:string"/>
+    <xsi:element name="releaseCreditRYMIdentifier" type="xsi:string"/>
+    <xsi:element name="releaseCreditRole" type="xsi:string"/>
+    
+    <xsi:element name="artist">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:artistRYMIdentifier" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistName" minOccurs="1" maxOccurs="unbounded"/>
+                <xsi:element ref="RYM:artistFormed" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistDisbanded" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistCurrentLocation" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistNotes" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistBiography" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistType" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistMembers" minOccurs="0" maxOccurs="1"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    
+    <xsi:element name="artistRYMIdentifier" type="xsi:string"/>
+    <xsi:element name="artistName" type="xsi:string"/>
+    
+    <xsi:element name="artistFormed">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:artistFormedDate" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistFormedLocation" minOccurs="0" maxOccurs="1"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    <xsi:element name="artistFormedDate" type="xsi:date"/>
+    <xsi:element name="artistFormedLocation" type="xsi:string"/>
+    
+    <xsi:element name="artistDisbanded">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:artistDisbandedDate" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistDisbandedLocation" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistDisbandedCause" minOccurs="0" maxOccurs="1"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    <xsi:element name="artistDisbandedDate" type="xsi:date"/>
+    <xsi:element name="artistDisbandedLocation" type="xsi:string"/>
+    <xsi:element name="artistDisbandedCause" type="xsi:string"/>
+    
+    <xsi:element name="artistCurrentLocation" type="xsi:string"/>
+    <xsi:element name="artistNotes" type="xsi:string"/>
+    <xsi:element name="artistBiography" type="xsi:string"/>
+    <xsi:element name="artistType" type="xsi:string"/>
+    
+    <xsi:element name="artistMembers">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:artistMember" minOccurs="1" maxOccurs="unbounded"></xsi:element>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    <xsi:element name="artistMember">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element ref="RYM:artistMemberName" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistMemberRYMIdentifier" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistMemberDateJoined" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistMemberDateLeft" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistMemberRole" minOccurs="1" maxOccurs="unbounded"/>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+    <xsi:element name="artistMemberName" type="xsi:string"/>
+    <xsi:element name="artistMemberRYMIdentifier" type="xsi:string"/>
+    <xsi:element name="artistMemberDateJoined" type="xsi:date"/>
+    <xsi:element name="artistMemberDateLeft" type="xsi:date"/>
+    <xsi:element name="artistMemberRole" type="xsi:string"/>
 </xsi:schema>
