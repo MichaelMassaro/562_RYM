@@ -107,8 +107,8 @@
             <xsi:sequence>
                 <xsi:element ref="RYM:releaseTrackName" minOccurs="1" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseTrackPosition" minOccurs="1" maxOccurs="1"/>
-                <xsi:element ref="RYM:releaseTrackLength" minOccurs="1" maxOccurs="1"/>
-                <xsi:element ref="RYM:releaseTrackCredits" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseTrackLength" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseTrackCredits" minOccurs="0" maxOccurs="1"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
