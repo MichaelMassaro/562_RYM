@@ -25,6 +25,7 @@
                 <xsi:element ref="RYM:releaseType" minOccurs="1" maxOccurs="unbounded"/>
                 <xsi:element ref="RYM:releaseTitle" minOccurs="1" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseDate" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseLabel" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseGenres" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseDescriptors" minOccurs="0" maxOccurs="unbounded"/>
                 <xsi:element ref="RYM:releaseLanguage" minOccurs="0" maxOccurs="unbounded"/>
@@ -40,6 +41,7 @@
     <xsi:element name="releaseType" type="xsi:string"/>
     <xsi:element name="releaseTitle" type="xsi:string"/>
     <xsi:element name="releaseDate" type="xsi:string"/>
+    <xsi:element name="releaseLabel" type="xsi:string"/>
     
     <xsi:element name="releaseGenres">
         <xsi:complexType>
