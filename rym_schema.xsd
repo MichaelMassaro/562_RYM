@@ -25,7 +25,6 @@
                 <xsi:element ref="RYM:releaseType" minOccurs="1" maxOccurs="unbounded"/>
                 <xsi:element ref="RYM:releaseTitle" minOccurs="1" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseDate" minOccurs="0" maxOccurs="1"/>
-                <xsi:element ref="RYM:releaseLabel" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseGenres" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseDescriptors" minOccurs="0" maxOccurs="unbounded"/>
                 <xsi:element ref="RYM:releaseLanguage" minOccurs="0" maxOccurs="unbounded"/>
@@ -41,7 +40,6 @@
     <xsi:element name="releaseType" type="xsi:string"/>
     <xsi:element name="releaseTitle" type="xsi:string"/>
     <xsi:element name="releaseDate" type="xsi:string"/>
-    <xsi:element name="releaseLabel" type="xsi:string"/>
     
     <xsi:element name="releaseGenres">
         <xsi:complexType>
@@ -162,7 +160,7 @@
                 <xsi:element ref="RYM:artistCurrentLocation" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistNotes" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistBiography" minOccurs="0" maxOccurs="1"/>
-                <xsi:element ref="RYM:artistType" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistRole" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistMembers" minOccurs="0" maxOccurs="1"/>
             </xsi:sequence>
         </xsi:complexType>
@@ -198,7 +196,7 @@
     <xsi:element name="artistCurrentLocation" type="xsi:string"/>
     <xsi:element name="artistNotes" type="xsi:string"/>
     <xsi:element name="artistBiography" type="xsi:string"/>
-    <xsi:element name="artistType" type="xsi:string"/>
+    <xsi:element name="artistRole" type="xsi:string"/>
     
     <xsi:element name="artistMembers">
         <xsi:complexType>
@@ -214,7 +212,6 @@
                 <xsi:element ref="RYM:artistMemberRYMIdentifier" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistMemberDateJoined" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistMemberDateLeft" minOccurs="0" maxOccurs="1"/>
-                <xsi:element ref="RYM:artistMemberRole" minOccurs="1" maxOccurs="unbounded"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
@@ -222,5 +219,4 @@
     <xsi:element name="artistMemberRYMIdentifier" type="xsi:string"/>
     <xsi:element name="artistMemberDateJoined" type="xsi:date"/>
     <xsi:element name="artistMemberDateLeft" type="xsi:date"/>
-    <xsi:element name="artistMemberRole" type="xsi:string"/>
 </xsi:schema>
