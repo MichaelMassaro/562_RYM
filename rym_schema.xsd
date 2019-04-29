@@ -155,7 +155,7 @@
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:artistRYMIdentifier" minOccurs="0" maxOccurs="1"/>
-                <xsi:element ref="RYM:artistName" minOccurs="1" maxOccurs="unbounded"/>
+                <xsi:element ref="RYM:artistName" minOccurs="1" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistFormed" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistDisbanded" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistCurrentLocation" minOccurs="0" maxOccurs="1"/>
