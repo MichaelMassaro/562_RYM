@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified" targetNamespace="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd" xmlns:RYM="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd">
+<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema" 
+    elementFormDefault="qualified" 
+    attributeFormDefault="qualified" 
+    targetNamespace="https://raw.githubusercontent.com/MichaelMassaro/562_RYM/master/rym_schema.xsd" 
+    xmlns:RYM="https://raw.githubusercontent.com/MichaelMassaro/562_RYM/master/rym_schema.xsd">
 <!-- 
     RYM 1.0
     Metadata schema for a single release on RateYourMusic.com
