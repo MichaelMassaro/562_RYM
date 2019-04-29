@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified" targetNamespace="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd" xmlns:RYM="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd">
+<!-- 
+    RYM 1.0
+    Metadata schema for a single release on RateYourMusic.com
     
+    May 1 2019
+    
+    Editor: Michael Massaro
+    
+    Link to GitHub Repo in targetNamespace and xlns:RYM attribute
+-->
     <xsi:element name="RYM">
         <xsi:annotation>
             <xsi:documentation xml:lang="en">RYM schema declaration</xsi:documentation>
@@ -642,7 +651,8 @@
     <xsi:element name="artistMemberName" type="xsi:string">
         <xsi:annotation>
             <xsi:documentation>The name of the member in the group. This should be what the member goes by in
-                the band, not simply his birth name.
+                the band, not simply his birth name. The only required element in the artistMember container
+                because it's the one element that will always be given by RateYourMusic.
             </xsi:documentation>
         </xsi:annotation>
     </xsi:element>
@@ -650,7 +660,7 @@
     <xsi:element name="artistMemberDateJoined" type="xsi:string">
         <xsi:annotation>
             <xsi:documentation>The date that the artist joined the group. This should follow the RateYourMusic
-                guidelines when formatting dates.
+                guidelines when formatting dates. Assumed to be when the band formed if left unfilled.
             </xsi:documentation>
         </xsi:annotation>
     </xsi:element>
@@ -667,7 +677,9 @@
         <xsi:annotation>
             <xsi:documentation>The role that this member played specifically within the band. This can be
                 multiple roles, which is why this field is allowed to be repeated. For example, the same
-                member can be a vocalist and a bassist.
+                member can be a vocalist and a bassist. This field isn't mandatory not because it's possible
+                to be in a group and not have a role, but because sometimes this information isn't available
+                on RateYourMusic.
             </xsi:documentation>
         </xsi:annotation>
     </xsi:element>
