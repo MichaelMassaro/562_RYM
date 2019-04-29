@@ -76,7 +76,35 @@
                 RateYourMusic has a viety of release types, including: albums, EPs, singles, mixtapes, DJ mixes,
                 compilations, videos, bootlegs, collaborations, and splits. The type of release can vastly change
                 how the rest of the metadata looks, and while certain types can be inferred from that, it helps the
-                overall readability. There are also certain releases that look like one release and are in-fact 
+                overall readability. There are also certain releases that
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                look like one release and are in-fact 
                 another. For example, an EP that has 4 20-minute long songs would be assumed to be a full-length.
                 album. It's also important for this value to repeat because, for example, something can be both an 
                 EP and split.
@@ -483,7 +511,7 @@
             <xsi:documentation>The name of the artist. This is the one element that all artists on RateYourMusic will have, so it's
                 important to include it. If the artist has multiple names, it's important to choose the name he was going by on
                 the release that this artist is associated too. If it's important to include other names, that can be noted in the
-                artistNotes element.
+                artistNote element.
             </xsi:documentation>
         </xsi:annotation>
     </xsi:element>
