@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RYM:RYM xmlns:xsi1="http://www.w3.org/2001/XMLSchema-instance"
+    xsi1:schemaLocation="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd rym_schema.xsd" 
+    xmlns:RYM="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+    <RYM:releaseInfo>
+        <RYM:release>
+            <RYM:releaseRYMIdentifier>[Album1021127]</RYM:releaseRYMIdentifier>
+            <RYM:releaseType>Album</RYM:releaseType>
+            <RYM:releaseTitle>Electro-Acoustic Music</RYM:releaseTitle>
+            <RYM:releaseDate>September 1970</RYM:releaseDate>
+            <RYM:releaseLabel>Nonesuch</RYM:releaseLabel>
+            <RYM:releaseGenres>
+                <RYM:releasePrimaryGenres>
+                    <RYM:releasePrimaryGenre>
+                        <RYM:releasePrimaryGenreRYMIdentifier>[Genre10150]</RYM:releasePrimaryGenreRYMIdentifier>
+                        <RYM:releasePrimaryGenreName>Electroacoustic</RYM:releasePrimaryGenreName>
+                        <RYM:releasePrimaryGenreDescription>Electroacoustic music is based on manipulation of acoustically-played ("unplugged") music with Experimental Electronic ("plugged") techniques such as loops, feedback, layering, delay, static/noise, backwards sampling, etc. It also tends to include synthetic sounds and is closely related to Tape Music, Musique concrète, acousmatic music, and elektronische musik (these terms are sometimes used interchangeably). Live performances tend to feature one or more people on acoustic instruments, and another group member sitting at a laptop computer applying the sound processing techniques in real-time. Electroacoustic pioneers such as Bernard Parmegiani and Karlheinz Stockhausen were typically academically trained Modern Classical composers: their compositions are arranged with the refined sensibility of classical compositions and tend to focus on sounds of Orchestral-based instruments like viols and woodwinds. However, electroacoustic music involves the electronic manipulation of all sorts of sounds, including voice and sounds that do not originate from musical instruments (Musique concrète). Furthermore, although having originated from the academic compositional sphere, it is not strictly a classical style. It has developed and expanded into less academic and more non-idiomatic styles such as EAI, and has seeped into underground music styles similar to or involving elements of Ambient, Drone, Noise, or Sound Collage. Virtually all of the incarnations of electroacoustic music, whether early academic or recent underground, involve a style that focuses more on employing creative abstract sounds and sonic textures than on song structure or melody.</RYM:releasePrimaryGenreDescription>
+                    </RYM:releasePrimaryGenre>
+                    <RYM:releasePrimaryGenre>
+                        <RYM:releasePrimaryGenreRYMIdentifier>[Genre21905]</RYM:releasePrimaryGenreRYMIdentifier>
+                        <RYM:releasePrimaryGenreName>Stochastic Music</RYM:releasePrimaryGenreName>
+                        <RYM:releasePrimaryGenreDescription>Stochastic music is a method of Modern Classical composition primarily developed by Iannis Xenakis in the early 1950s, and described in his book Formalized Music. This music arose from Xenakis' critique of Serialism, which in Xenakis' point of view just substituted the natural causality of tonal music by the stricter abstract causality in order to create atonal music. However, Xenakis concludes, this causality cannot be perceived and what the listener hears is just a random set of tones, which causes that serialism crushes under its complexity. Xenakis meant to create music that would evade bindings of causality but would remain logical, and its inherent logic would be perceivable on the macroscopic level. This often results in a slowly evolving mass of sound, a concept which inspired Sonorism composers. "Stochastic" is a term borrowed from theory of probability and Xenakis describes it as "an asymptotic evolution towards a stable state, towards a kind of goal, of stochos". Stochastic music is kind of guided indeterminism, where the following state is only partially determined by the preceding state, meaning that the concrete state n+2 follows after the state n+1 only with some probability. Every aspect of music, be it pitch, duration, timbre, dynamics and so on can be subordinated to such laws of chance. Stochastic music heavily borrows from mathematics such as law of large numbers, probability theory, game theory, Boolean algebra, Markov chains, Poisson law, group theory and so on. These mathematical means are used to guide the indeterminism. However, this method is different to Indeterminacy, where the randomness is not guided by mathematical or other such laws. Also, the output of stochastic processes is usually fixed in a traditional score in the end, where indeterminacy often uses open scores and even alternative notations. Stochastic music is sometimes referred to as a compositional technique, sometimes as a genre. Though stochastic music borrows heavily from both serialism and indeterminacy, it distinguishes itself from either through its core philosophical ideas, mainly the idea that application of scientific, or other non-musical notions of causality onto music can enrich our perception of music and redefine the concept of "harmony". Usage of computers is also welcomed in stochastic music because of the need for many calculations that take a long time when done by hand. This led to scores created by computers using preset algorithms, as well as to purely Electronic pieces. Stochastic music has very few followers besides Xenakis, most notably James Tenney and Francisco Guerrero.</RYM:releasePrimaryGenreDescription>
+                    </RYM:releasePrimaryGenre>
+                    <RYM:releasePrimaryGenre>
+                        <RYM:releasePrimaryGenreRYMIdentifier>[Genre10375]</RYM:releasePrimaryGenreRYMIdentifier>
+                        <RYM:releasePrimaryGenreName>Tape Music</RYM:releasePrimaryGenreName>
+                        <RYM:releasePrimaryGenreDescription>The invention of the magnetic tape brought about new possibilities in the realm of Experimental music, namely Musique concrète, Electroacoustic and Sound Collage. Tape music composers capture raw real-world sounds, recordings of musical instruments or synthesized sounds on tape to present the sounds as acousmatic compositions, distinct from the Western Classical Music tradition of musical notation which results in different performances each time. These composers may also proceed to manipulate the sounds using methods characteristic of electroacoustic music. Some composers such as Steve Reich and William Basinski have combined Minimalism and tape music by looping snippets of audio using tapes.</RYM:releasePrimaryGenreDescription>
+                    </RYM:releasePrimaryGenre>
+                </RYM:releasePrimaryGenres>
+                <RYM:releaseSecondaryGenres>
+                    <RYM:releaseSecondaryGenre>
+                        <RYM:releaseSecondaryGenreRYMIdentifier>[Genre10084]</RYM:releaseSecondaryGenreRYMIdentifier>
+                        <RYM:releaseSecondaryGenreName>Musique concrète</RYM:releaseSecondaryGenreName>
+                        <RYM:releaseSecondaryGenreDescription>Developed by Pierre Schaeffer, musique concrète refers to music or sound art which defies the common constraints and conventions music is associated with. Musique concrète makes the attempt to create music while relying mainly on environmental/real-world sounds and noises, though it can also use recordings of human voice and various instruments. Those sounds can be transformed (sometimes to the point the original source is unrecognizable) and are given certain musical qualities thanks to repetition, rhythmization, contrapuntal layering or other formal techniques. The name "concrete music" contrasts with the traditional "abstract music". Whereas abstract music starts as an idea in the mind of the composer and is then turned into sound, concrete music begins with the already existing sounds, composition being the last stage of its creation.</RYM:releaseSecondaryGenreDescription>
+                    </RYM:releaseSecondaryGenre>
+                    <RYM:releaseSecondaryGenre>
+                        <RYM:releaseSecondaryGenreRYMIdentifier>[Genre246]</RYM:releaseSecondaryGenreRYMIdentifier>
+                        <RYM:releaseSecondaryGenreName>Drone</RYM:releaseSecondaryGenreName>
+                        <RYM:releaseSecondaryGenreDescription>Drone music typically emphasizes a single sustained note, chord, or simply a repeated sound such as a spoken word or utterance. It is often very minimal and tracks can be quite lengthy, emphasizing major and minor harmonic variations emitted from these drones over a period of time.</RYM:releaseSecondaryGenreDescription>
+                    </RYM:releaseSecondaryGenre>
+                </RYM:releaseSecondaryGenres>
+            </RYM:releaseGenres>
+            <RYM:releaseDescriptor>atmospheric</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>avant-garde</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>apocalyptic</RYM:releaseDescriptor>
+            <RYM:releaseArt>https://e.snmc.io/i/fullres/w/f1426f42635f4a22cf43860647585f7f/2420985</RYM:releaseArt>
+            <RYM:releaseTracks>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Bohor I</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>A</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>21:56</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Concret P-H II</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>B1</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>2:38</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Diamorphoses II</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>B2</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>6:49</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Orient-Occident III</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>B3</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>11:12</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+            </RYM:releaseTracks>
+            <RYM:releaseLength>42:35</RYM:releaseLength>
+            <RYM:releaseCredits>
+                <RYM:releaseCredit>
+                    <RYM:releaseCreditArtistRYMIdentifier>[Artist3441]</RYM:releaseCreditArtistRYMIdentifier>
+                    <RYM:releaseCreditArtistName>Iannis Xenakis</RYM:releaseCreditArtistName>
+                    <RYM:releaseCreditRole>Composer</RYM:releaseCreditRole>
+                </RYM:releaseCredit>
+                <RYM:releaseCredit>
+                    <RYM:releaseCreditArtistRYMIdentifier>[Artist78142]</RYM:releaseCreditArtistRYMIdentifier>
+                    <RYM:releaseCreditArtistName>Groupe de Recherches Musicales de la RTF</RYM:releaseCreditArtistName>
+                    <RYM:releaseCreditRole>Performer</RYM:releaseCreditRole>
+                </RYM:releaseCredit>
+            </RYM:releaseCredits>
+        </RYM:release>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist3441]</RYM:artistRYMIdentifier>
+            <RYM:artistName>Iannis Xenakis</RYM:artistName>
+            <RYM:artistFormed>
+                <RYM:artistFormedDate>29 May 1922</RYM:artistFormedDate>
+                <RYM:artistFormedLocation>Brăila, Brăila County, Romania</RYM:artistFormedLocation>
+                <RYM:artistFormedCause>Born</RYM:artistFormedCause>
+            </RYM:artistFormed>
+            <RYM:artistDisbanded>
+                <RYM:artistDisbandedDate>4 February 2001</RYM:artistDisbandedDate>
+                <RYM:artistDisbandedLocation>Paris, Île-de-France, France</RYM:artistDisbandedLocation>
+                <RYM:artistDisbandedCause>Died</RYM:artistDisbandedCause>
+            </RYM:artistDisbanded>
+            <RYM:artistNote>Father of Mâkhi Xenakis</RYM:artistNote>
+            <RYM:artistNote>Also Known As Ιάννης Ξενάκης, Γιάννης Ξενάκης</RYM:artistNote>
+            <RYM:artistBiography>Born to members of the Greek Diaspora, Xenakis moved back to Greece in 1932, where he studied architecture and engineering at the Polytechnic in Athens. He was injured while fighting for the Greek resistance during World War II. In 1947, under the threat of a death sentence imposed for his involvement in the Greek uprising against the British, he fled to Paris, where he eventually worked in Le Corbusier's Atelier. Although Xenakis initially studied music under Arthur Honegger and Darius Milhaud, it was Olivier Messiaen who encouraged him to develop his own musical ideas. His first musical composition for orchestra, Metastasis, was written in 1953-4 and forms the basis for his design of the Philips Pavilon for the Brussels Exposition of 1958. Unlike many of his contemporaries, this composition draws heavily from mathematics rather than serialism and polyphony. Xenakis would eventually develop musical ideas that he labelled "stochastic" since only the total form of a composition is pre-determined, not its individual elements. Other notable works include Atrées (Gaussian probability distributions), Analogiques (Markovian chains) and Nomos Alpha (group theory).</RYM:artistBiography>
+        </RYM:artist>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist78142]</RYM:artistRYMIdentifier>
+            <RYM:artistName>Groupe de Recherches Musicales de la RTF</RYM:artistName>
+            <RYM:artistFormed>
+                <RYM:artistFormedLocation>France</RYM:artistFormedLocation>
+            </RYM:artistFormed>
+        </RYM:artist>
+    </RYM:releaseInfo>
+</RYM:RYM>
