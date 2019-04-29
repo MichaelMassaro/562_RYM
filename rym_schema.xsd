@@ -32,7 +32,6 @@
                 <xsi:element ref="RYM:releaseTracks" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseLength" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseCredits" minOccurs="0" maxOccurs="1"/>
-                <xsi:element ref="RYM:releaseArtist" minOccurs="1" maxOccurs="unbounded"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
@@ -151,9 +150,7 @@
     <xsi:element name="releaseCreditRYMIdentifier" type="xsi:string"/>
     <xsi:element name="releaseCreditRole" type="xsi:string"/>
     
-    <xsi:element name="releaseArtist" type="xsi:string"/>
-    
-    
+ 
     <xsi:element name="artist">
         <xsi:complexType>
             <xsi:sequence>
