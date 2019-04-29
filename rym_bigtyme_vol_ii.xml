@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RYM:RYM xmlns:xsi1="http://www.w3.org/2001/XMLSchema-instance"
+    xsi1:schemaLocation="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd rym_schema.xsd" 
+    xmlns:RYM="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+    
+    <RYM:releaseInfo>
+        <RYM:release>
+            <RYM:releaseRYMIdentifier>[Album726652]</RYM:releaseRYMIdentifier>
+            <RYM:releaseType>DJ Mix</RYM:releaseType>
+            <RYM:releaseTitle>Bigtyme Vol II: All Screwed Up</RYM:releaseTitle>
+            <RYM:releaseDate>1995</RYM:releaseDate>
+            <RYM:releaseGenres>
+                <RYM:releasePrimaryGenres>
+                    <RYM:releasePrimaryGenre>
+                        <RYM:releasePrimaryGenreRYMIdentifier>[Genre533]</RYM:releasePrimaryGenreRYMIdentifier>
+                        <RYM:releasePrimaryGenreName>Chopped and Screwed</RYM:releasePrimaryGenreName>
+                        <RYM:releasePrimaryGenreDescription>Chopped and screwed is a Hip Hop remixing technique pioneered by the late Houston producer DJ Screw. Developed in the early 1990s as a primarily Southern Hip Hop style, the technique later spread to other scenes through the sale of screwed mixtapes ("screwtapes") and screwed versions of full length albums. The itself comes from two of the core mixing techniques; "chopping" referring to the skipping effects, and "screwing" referring to the drop in the original music's tempo. Screw's sound involved slowing the original tracks down to roughly 50-75% their original speed (around 60-70 quarter beats per minute), playing both records on separate turntables at a beat apart and using crossfading to create a skipping effect, as well as other scratching and standard DJ mixing techniques. This gave the tracks a slowed-down, hugely mellow and heavy sound, putting heavy emphasis on the lyrics. Screw's legacy leaves behind a sub-genre hugely prevalent in the hip hop world, one now practised by many producers, with many full albums being released with alternate, chopped and screwed versions.</RYM:releasePrimaryGenreDescription>
+                    </RYM:releasePrimaryGenre>
+                    <RYM:releasePrimaryGenre>
+                        <RYM:releasePrimaryGenreRYMIdentifier>[Genre30]</RYM:releasePrimaryGenreRYMIdentifier>
+                        <RYM:releasePrimaryGenreName>Southern Hip Hop</RYM:releasePrimaryGenreName>
+                        <RYM:releasePrimaryGenreDescription>Within the hip hop community the south was the last region to gain any real critical acceptance, and this fact weighs heavily on both the lyrical direction and production aesthetic of many albums released in the 1990s. However, the south can be traced slightly further back to Miami Bass, in particular 2 Live Crew. Because of this root in bass-oriented music, the low-end has been emphasized in most southern hip-hop beyond most productions from other regions, especially the TR-808 synthesizer. Productions are also noticeably southern in sound, utilizing samples of southern-bred soul artists as well as touches of southern style guitar and brass instruments. Vocally, southern artists often (but not always) rap much slower than their counterparts in other regions, keeping their lyrics simple and heavily informed by regional slang.</RYM:releasePrimaryGenreDescription>
+                    </RYM:releasePrimaryGenre>
+                    <RYM:releasePrimaryGenre>
+                        <RYM:releasePrimaryGenreRYMIdentifier>[Genre109]</RYM:releasePrimaryGenreRYMIdentifier>
+                        <RYM:releasePrimaryGenreName>Gangsta Rap</RYM:releasePrimaryGenreName>
+                        <RYM:releasePrimaryGenreDescription>While very similar to Hardcore Hip Hop, gangsta rap specifically refers to artists who rap from a gangster's perspective. Because of the prevalence of gang activity in urban California neighborhoods during the 1980s and 1990s, this style of Hip Hop became the west coast's answer to the east coast's hardcore style. Artists such as Ice-T and N.W.A were highly influential on this period, rapping about day to day situations in gang-related life. Similar music came out of the south at the same time, with groups like Geto Boys laying the groundwork for enormous independent-minded groups, from Screwed Up Click and South Park Coalition to No Limit Records and Cash Money Records leading into the 2000s.</RYM:releasePrimaryGenreDescription>
+                    </RYM:releasePrimaryGenre>
+                </RYM:releasePrimaryGenres>
+                <RYM:releaseSecondaryGenres>
+                    <RYM:releaseSecondaryGenre>
+                        <RYM:releaseSecondaryGenreRYMIdentifier>[Genre534]</RYM:releaseSecondaryGenreRYMIdentifier>
+                        <RYM:releaseSecondaryGenreName>Dirty South</RYM:releaseSecondaryGenreName>
+                        <RYM:releaseSecondaryGenreDescription>Dirty South is an aggressive style of hip hop originating in the 1990s from the southern United States, particularly from the cities Houston, Atlanta and New Orleans. Closely associated with the Southern Hip Hop scene, it employs heavy bass beats, bouncy rhythms, a "free-flowing" rhyming style and often sexually explicit and/or violent lyrics. Influenced by, among others, UGK's and Geto Boys' early work, the genre takes its name from the Goodie Mob song of the same name, from the album Soul Food (1995). Along with Miami Bass, the genre had a profound influence over Crunk and Trap Rap genres.</RYM:releaseSecondaryGenreDescription>
+                    </RYM:releaseSecondaryGenre>
+                </RYM:releaseSecondaryGenres>
+            </RYM:releaseGenres>
+            <RYM:releaseDescriptor>psychedelic</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>mellow</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>surreal</RYM:releaseDescriptor>
+            <RYM:releaseLanguage>English</RYM:releaseLanguage>
+            <RYM:releaseArt>https://e.snmc.io/i/fullres/w/3054ce3add686f5438694d31f9a3ba47/2405853</RYM:releaseArt>
+            <RYM:releaseTracks>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Intro</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>1</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>1:00</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Short Texas</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>2</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>4:33</RYM:releaseTrackLength>
+                    <RYM:releaseTrackCredits>
+                        <RYM:releaseTrackCreditArtistRYMIdentifier>[Artist8848]</RYM:releaseTrackCreditArtistRYMIdentifier>
+                        <RYM:releaseTrackCreditArtistName>UGK</RYM:releaseTrackCreditArtistName>
+                        <RYM:releaseTrackCreditRole>Original Composers</RYM:releaseTrackCreditRole>
+                        <RYM:releaseTrackCreditRole>Original Performers</RYM:releaseTrackCreditRole>
+                    </RYM:releaseTrackCredits>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Wreckless</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>3</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>4:00</RYM:releaseTrackLength>
+                    <RYM:releaseTrackCredits>
+                        <RYM:releaseTrackCreditArtistRYMIdentifier>[Artist16952]</RYM:releaseTrackCreditArtistRYMIdentifier>
+                        <RYM:releaseTrackCreditArtistName>Point Blank</RYM:releaseTrackCreditArtistName>
+                        <RYM:releaseTrackCreditRole>Original Composers</RYM:releaseTrackCreditRole>
+                        <RYM:releaseTrackCreditRole>Original Performers</RYM:releaseTrackCreditRole>
+                    </RYM:releaseTrackCredits>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Pregnant Pussy</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>4</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>4:39</RYM:releaseTrackLength>
+                    <RYM:releaseTrackCredits>
+                        <RYM:releaseTrackCreditArtistRYMIdentifier>[Artist8848]</RYM:releaseTrackCreditArtistRYMIdentifier>
+                        <RYM:releaseTrackCreditArtistName>UGK</RYM:releaseTrackCreditArtistName>
+                        <RYM:releaseTrackCreditRole>Original Composers</RYM:releaseTrackCreditRole>
+                        <RYM:releaseTrackCreditRole>Original Performers</RYM:releaseTrackCreditRole>
+                    </RYM:releaseTrackCredits>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>After I Die</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>5</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>9:06</RYM:releaseTrackLength>
+                    <RYM:releaseTrackCredits>
+                        <RYM:releaseTrackCreditArtistRYMIdentifier>[Artist16952]</RYM:releaseTrackCreditArtistRYMIdentifier>
+                        <RYM:releaseTrackCreditArtistName>Point Blank</RYM:releaseTrackCreditArtistName>
+                        <RYM:releaseTrackCreditRole>Original Composers</RYM:releaseTrackCreditRole>
+                        <RYM:releaseTrackCreditRole>Original Performers</RYM:releaseTrackCreditRole>
+                    </RYM:releaseTrackCredits>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Backstreets</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>6</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>7:31</RYM:releaseTrackLength>
+                    <RYM:releaseTrackCredits>
+                        <RYM:releaseTrackCreditArtistRYMIdentifier>[Artist16952]</RYM:releaseTrackCreditArtistRYMIdentifier>
+                        <RYM:releaseTrackCreditArtistName>20-2-Life</RYM:releaseTrackCreditArtistName>
+                        <RYM:releaseTrackCreditRole>Original Composers</RYM:releaseTrackCreditRole>
+                        <RYM:releaseTrackCreditRole>Original Performers</RYM:releaseTrackCreditRole>
+                    </RYM:releaseTrackCredits>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Tell Me Something Good</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>7</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>6:43</RYM:releaseTrackLength>
+                    <RYM:releaseTrackCredits>
+                        <RYM:releaseTrackCreditArtistRYMIdentifier>[Artist8848]</RYM:releaseTrackCreditArtistRYMIdentifier>
+                        <RYM:releaseTrackCreditArtistName>UGK</RYM:releaseTrackCreditArtistName>
+                        <RYM:releaseTrackCreditRole>Original Composers</RYM:releaseTrackCreditRole>
+                        <RYM:releaseTrackCreditRole>Original Performers</RYM:releaseTrackCreditRole>
+                    </RYM:releaseTrackCredits>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Inside Looking Out</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>8</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>6:43</RYM:releaseTrackLength>
+                    <RYM:releaseTrackCredits>
+                        <RYM:releaseTrackCreditArtistRYMIdentifier>[Artist16952]</RYM:releaseTrackCreditArtistRYMIdentifier>
+                        <RYM:releaseTrackCreditArtistName>20-2-Life</RYM:releaseTrackCreditArtistName>
+                        <RYM:releaseTrackCreditRole>Original Composers</RYM:releaseTrackCreditRole>
+                        <RYM:releaseTrackCreditRole>Original Performers</RYM:releaseTrackCreditRole>
+                    </RYM:releaseTrackCredits>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>My Mind Went Blank</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>9</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>6:37</RYM:releaseTrackLength>
+                    <RYM:releaseTrackCredits>
+                        <RYM:releaseTrackCreditArtistRYMIdentifier>[Artist16952]</RYM:releaseTrackCreditArtistRYMIdentifier>
+                        <RYM:releaseTrackCreditArtistName>Point Blank</RYM:releaseTrackCreditArtistName>
+                        <RYM:releaseTrackCreditRole>Original Composers</RYM:releaseTrackCreditRole>
+                        <RYM:releaseTrackCreditRole>Original Performers</RYM:releaseTrackCreditRole>
+                    </RYM:releaseTrackCredits>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>13 Ways</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>10</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>5:03</RYM:releaseTrackLength>
+                    <RYM:releaseTrackCredits>
+                        <RYM:releaseTrackCreditArtistRYMIdentifier>[Artist110911]</RYM:releaseTrackCreditArtistRYMIdentifier>
+                        <RYM:releaseTrackCreditArtistName>PSK-13</RYM:releaseTrackCreditArtistName>
+                        <RYM:releaseTrackCreditRole>Original Composers</RYM:releaseTrackCreditRole>
+                        <RYM:releaseTrackCreditRole>Original Performers</RYM:releaseTrackCreditRole>
+                    </RYM:releaseTrackCredits>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Straighten It Out</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>11</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>3:34</RYM:releaseTrackLength>
+                    <RYM:releaseTrackCredits>
+                        <RYM:releaseTrackCreditArtistRYMIdentifier>[Artist16952]</RYM:releaseTrackCreditArtistRYMIdentifier>
+                        <RYM:releaseTrackCreditArtistName>Point Blank</RYM:releaseTrackCreditArtistName>
+                        <RYM:releaseTrackCreditRole>Original Composers</RYM:releaseTrackCreditRole>
+                        <RYM:releaseTrackCreditRole>Original Performers</RYM:releaseTrackCreditRole>
+                    </RYM:releaseTrackCredits>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Headin' fo My Trunk</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>12</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>7:27</RYM:releaseTrackLength>
+                    <RYM:releaseTrackCredits>
+                        <RYM:releaseTrackCreditArtistRYMIdentifier>[Artist110911]</RYM:releaseTrackCreditArtistRYMIdentifier>
+                        <RYM:releaseTrackCreditArtistName>PSK-13</RYM:releaseTrackCreditArtistName>
+                        <RYM:releaseTrackCreditRole>Original Composers</RYM:releaseTrackCreditRole>
+                        <RYM:releaseTrackCreditRole>Original Performers</RYM:releaseTrackCreditRole>
+                    </RYM:releaseTrackCredits>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Da Music</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>13</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>6:51</RYM:releaseTrackLength>
+                    <RYM:releaseTrackCredits>
+                        <RYM:releaseTrackCreditArtistRYMIdentifier>[Artist16952]</RYM:releaseTrackCreditArtistRYMIdentifier>
+                        <RYM:releaseTrackCreditArtistName>20-2-Life</RYM:releaseTrackCreditArtistName>
+                        <RYM:releaseTrackCreditRole>Original Composers</RYM:releaseTrackCreditRole>
+                        <RYM:releaseTrackCreditRole>Original Performers</RYM:releaseTrackCreditRole>
+                    </RYM:releaseTrackCredits>
+                </RYM:releaseTrack>
+            </RYM:releaseTracks>
+            <RYM:releaseCredits>
+                <RYM:releaseCredit>
+                    <RYM:releaseCreditArtistRYMIdentifier>[Artist73932]</RYM:releaseCreditArtistRYMIdentifier>
+                    <RYM:releaseCreditArtistName>DJ Screw</RYM:releaseCreditArtistName>
+                    <RYM:releaseCreditRole>Release Artist</RYM:releaseCreditRole>
+                    <RYM:releaseCreditRole>DJ</RYM:releaseCreditRole>
+                </RYM:releaseCredit>
+            </RYM:releaseCredits>
+        </RYM:release>
+        
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist73932]</RYM:artistRYMIdentifier>
+            <RYM:artistName>DJ Screw</RYM:artistName>
+            <RYM:artistFormed>
+                <RYM:artistFormedDate>20 July 1971</RYM:artistFormedDate>
+                <RYM:artistFormedLocation>Smithville, TX, United States</RYM:artistFormedLocation>
+                <RYM:artistFormedCause>Born</RYM:artistFormedCause>
+            </RYM:artistFormed>
+            <RYM:artistDisbanded>
+                <RYM:artistDisbandedDate>16 Novembeer 2000</RYM:artistDisbandedDate>
+                <RYM:artistDisbandedLocation>Houston, TX, United States</RYM:artistDisbandedLocation>
+                <RYM:artistDisbandedCause>Died</RYM:artistDisbandedCause>
+            </RYM:artistDisbanded>
+            <RYM:artistNote>Founder of Screwed Up Records</RYM:artistNote>
+            <RYM:artistNote>brother of Sister Screw</RYM:artistNote>
+            <RYM:artistNote>son of Papa Screw and Mama Screw</RYM:artistNote>
+            <RYM:artistBiography>DJ Screw (born Robert Earl Davis, Jr.) was a Houston hip hop artist known for his trademark Chopped and Screwed remixing style, where he would change tracks to a much slower pace and add various effects, such as beat skipping and scratching, to drastically alter its sound. This technique has become hugely popular within hip hop, with many albums being remixed and released in the chopped and screwed style. He died aged 29 on November 16, 2000 after consuming a lethal combination of codeine and alcohol. However, he leaves behind a musical style bearing his name, as well as a musical legacy totalling hundreds of albums, mainly cassette tapes ("screwtapes") released through Screwed Up Records in his home city of Houston.</RYM:artistBiography>
+        </RYM:artist>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist8848]</RYM:artistRYMIdentifier>
+            <RYM:artistName>UGK</RYM:artistName>
+            <RYM:artistFormed>
+                <RYM:artistFormedDate>1987</RYM:artistFormedDate>
+                <RYM:artistFormedLocation>Port Arthur, TX, United States</RYM:artistFormedLocation>
+            </RYM:artistFormed>
+            <RYM:artistDisbanded>
+                <RYM:artistDisbandedDate>4 December 2007</RYM:artistDisbandedDate>
+                <RYM:artistDisbandedCause>Member Died (Pimp C)</RYM:artistDisbandedCause>
+            </RYM:artistDisbanded>
+            <RYM:artistNote>Also Known As Underground Kingz, U.G.K., UGK'z</RYM:artistNote>
+            <RYM:artistMembers>
+                <RYM:artistMember>
+                    <RYM:artistMemberRYMIdentifier>[Artist40904]</RYM:artistMemberRYMIdentifier>
+                    <RYM:artistMemberName>Bun B</RYM:artistMemberName>
+                </RYM:artistMember>
+                <RYM:artistMember>
+                    <RYM:artistMemberRYMIdentifier>[Artist63821]</RYM:artistMemberRYMIdentifier>
+                    <RYM:artistMemberName>Pimp C</RYM:artistMemberName>
+                </RYM:artistMember>
+            </RYM:artistMembers>
+        </RYM:artist>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist16952]</RYM:artistRYMIdentifier>
+            <RYM:artistName>Point Blank</RYM:artistName>
+            <RYM:artistFormed>
+                <RYM:artistFormedLocation>Chicago, IL, United States</RYM:artistFormedLocation>
+            </RYM:artistFormed>
+            <RYM:artistCurrentLocation>Houston, TX, United States</RYM:artistCurrentLocation>
+        </RYM:artist>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist71087]</RYM:artistRYMIdentifier>
+            <RYM:artistName>20-2-Life</RYM:artistName>
+            <RYM:artistFormed>
+                <RYM:artistFormedDate>1991</RYM:artistFormedDate>
+                <RYM:artistFormedLocation>Houston, TX, United States</RYM:artistFormedLocation>
+            </RYM:artistFormed>
+            <RYM:artistDisbanded>
+                <RYM:artistDisbandedDate>2003</RYM:artistDisbandedDate>
+            </RYM:artistDisbanded>
+            <RYM:artistMembers>
+                <RYM:artistMember>
+                    <RYM:artistMemberRYMIdentifier>[Artist300237]</RYM:artistMemberRYMIdentifier>
+                    <RYM:artistMemberName>Black</RYM:artistMemberName>
+                </RYM:artistMember>
+                <RYM:artistMember>
+                    <RYM:artistMemberRYMIdentifier>Killa Hoe</RYM:artistMemberRYMIdentifier>
+                    <RYM:artistMemberName>[Artist828875]</RYM:artistMemberName>
+                </RYM:artistMember>
+            </RYM:artistMembers>
+        </RYM:artist>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist110911]</RYM:artistRYMIdentifier>
+            <RYM:artistName>PSK-13</RYM:artistName>
+            <RYM:artistFormed>
+                <RYM:artistFormedLocation>Houston, TX, United States</RYM:artistFormedLocation>
+            </RYM:artistFormed>
+            <RYM:artistMembers>
+                <RYM:artistMember>
+                    <RYM:artistMemberRYMIdentifier>[Artist80590]</RYM:artistMemberRYMIdentifier>
+                    <RYM:artistMemberName>Wreckless Klan</RYM:artistMemberName>
+                </RYM:artistMember>
+                <RYM:artistMember>
+                    <RYM:artistMemberRYMIdentifier>[Artist300254]</RYM:artistMemberRYMIdentifier>
+                    <RYM:artistMemberName>South Park Coalition</RYM:artistMemberName>
+                </RYM:artistMember>
+            </RYM:artistMembers>
+        </RYM:artist>
+    </RYM:releaseInfo>
+</RYM:RYM>
