@@ -2,6 +2,9 @@
 <xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified" targetNamespace="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd" xmlns:RYM="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd">
     
     <xsi:element name="RYM">
+        <xsi:annotation>
+            <xsi:documentation xml:lang="en">RYM schema declaration</xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:releaseInfo" minOccurs="1" maxOccurs="1"/>
@@ -10,6 +13,12 @@
     </xsi:element>
     
     <xsi:element name="releaseInfo">
+        <xsi:annotation>
+            <xsi:documentation xml:lang="en">The root element of the schema. Allows only one release, but allows
+                multiple artists. This is because releaseInfo should only hold info for one release, but many artists
+                can be involved in a single release.
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:release" minOccurs="1" maxOccurs="1"/>
@@ -19,6 +28,11 @@
     </xsi:element>
     
     <xsi:element name="release">
+        <xsi:annotation>
+            <xsi:documentation xml:lang="en">The element that designates a release. This is where all the information of
+                the single release will go (more information on what each element does in their respective annotations).
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:releaseRYMIdentifier" minOccurs="1" maxOccurs="1"/>
@@ -36,12 +50,64 @@
         </xsi:complexType>
     </xsi:element>
     
-    <xsi:element name="releaseRYMIdentifier" type="xsi:string"/>
-    <xsi:element name="releaseType" type="xsi:string"/>
-    <xsi:element name="releaseTitle" type="xsi:string"/>
-    <xsi:element name="releaseDate" type="xsi:string"/>
+    <xsi:element name="releaseRYMIdentifier" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation xml:lang="en">All releases in the RateYourMusic database have an automatically generated
+                unique identifier. This is where that value goes. It's important to have a unique identifier because, for
+                example, using the title as an identifier will be redundant and cause issues within the database. The 
+                releaseRYMIdentifier can be found in the top right (next to the title) on a release's page. Here's an
+                example of what one looks like: [Album726652].
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseType" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation xml:lang="en">releaseType is the type of release as far as the format of the music.
+                RateYourMusic has a viety of release types, including: albums, EPs, singles, mixtapes, DJ mixes,
+                compilations, videos, bootlegs, collaborations, and splits. The type of release can vastly change
+                how the rest of the metadata looks, and while certain types can be inferred from that, it helps the
+                overall readability. There are also certain releases that look like one release and are in-fact 
+                another. For example, an EP that has 4 20-minute long songs would be assumed to be a full-length.
+                album. It's also important for this value to repeat because, for example, something can be both an 
+                EP and split.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseTitle" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>releaseTitle is simply the title of the release. Something important to note is that,
+                since this schema only covers one release (and one issue of that release), it's important to use the
+                title it had at that specific release. For example, some re-issues may have a different title than
+                the original issue. If your file is based off the first issue of the release, it should also hold
+                that title. This is also the reason why releaseTitle cannot be repeated.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseDate" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The date that the release was released. It's important to get the release date for 
+                the specific issue that this release is. It's also important to not use a conventional date 
+                convention, like Library of Congress, because RateYourMusic has a different convention, which follows
+                the format: [number for day] [full month spelled out] full number for year], e.g., 1 November 2011.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
     
     <xsi:element name="releaseGenres">
+        <xsi:annotation>
+            <xsi:documentation>releaseGenres is a container that holds both releasePrimaryGenres and 
+                releaseSecondaryGenres. The direct difference between primary and secondary genres are that primary
+                genres are what you'd describe the release as and secondary genres are genres that typically describe
+                certain influences on the album or smaller portions of the album. For example, if an album is 75% pop, 
+                but 25% noise (percentages merely determined by length-time), then it would have a pop primary and a
+                noise secondary. However, if an album is mostly pop but has noise undertones throughout, it would also
+                be pop primary and noise secondary. Needless to say, all genres used must be from RateYourMusic. Here
+                is a link to all of RateYourMusic's genres: https://rateyourmusic.com/rgenre/
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:releasePrimaryGenres" minOccurs="1" maxOccurs="1"/>
@@ -49,7 +115,15 @@
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
+    
     <xsi:element name="releasePrimaryGenres">
+        <xsi:annotation>
+            <xsi:documentation>The container for primary genres. This level of hiearchy is useful because it allows for
+                the distinction between primary and secondary genres and that they're not just both in the "releaseGenres"
+                tag. Only RateYourMusic genres that are the dominant sound of the album (usually no more than three) should
+                be within the elements of this container.
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:sequence>
@@ -58,7 +132,14 @@
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
+    
     <xsi:element name="releasePrimaryGenre">
+        <xsi:annotation>
+            <xsi:documentation>The container that holds the information for a single primary genre. It's important to have a 
+                container for this because, without it, the three elements that describe primary genres have no distinction
+                between each other.
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:releasePrimaryGenreRYMIdentifier" minOccurs="1" maxOccurs="1"/>
@@ -67,18 +148,55 @@
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
-    <xsi:element name="releasePrimaryGenreRYMIdentifier" type="xsi:string"/>
-    <xsi:element name="releasePrimaryGenreName" type="xsi:string"/>
-    <xsi:element name="releasePrimaryGenreDescription" type="xsi:string"/>
+    
+    <xsi:element name="releasePrimaryGenreRYMIdentifier" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The unique identifier that denotes which genre is being used. All genres in the RateYourMusic
+                database have an unique identifier, similar to all releases, that is automatically used when a new genre is
+                approved.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releasePrimaryGenreName" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The name of the genre which is being used. Similar to the unique genre key, all genres have
+                a name on RateYourMusic. It's important to include this for clarity.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releasePrimaryGenreDescription" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The description of the genre which is being used. Similar to the unique genre key, all genres 
+                must have a description if they are to be approved by the community. The descriptions can vary, but generally
+                give a brief history and summarization that the genre typically sounds like.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
     
     <xsi:element name="releaseSecondaryGenres">
+        <xsi:annotation>
+            <xsi:documentation>The container for secondary genres. This level of hiearchy is useful because it allows for
+                the distinction between primary and secondary genres and that they're not just both in the "releaseGenres"
+                tag. Only RateYourMusic genres that are influences or a small portion of the album should be included in
+                this container.
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:releaseSecondaryGenre" minOccurs="1" maxOccurs="unbounded"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
+    
         <xsi:element name="releaseSecondaryGenre">
+            <xsi:annotation>
+                <xsi:documentation>The container that holds the information for a single secondary genre. It's important to have a 
+                    container for this because, without it, the three elements that describe secondary genres have no distinction
+                    between each other.
+                </xsi:documentation>
+            </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:releaseSecondaryGenreRYMIdentifier" minOccurs="1" maxOccurs="1"/>
@@ -87,22 +205,88 @@
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
-    <xsi:element name="releaseSecondaryGenreRYMIdentifier" type="xsi:string"/>
-    <xsi:element name="releaseSecondaryGenreName" type="xsi:string"/>
-    <xsi:element name="releaseSecondaryGenreDescription" type="xsi:string"/>
     
-    <xsi:element name="releaseDescriptors" type="xsi:string"/>
-    <xsi:element name="releaseLanguage" type="xsi:language"/>
-    <xsi:element name="releaseArt" type="xsi:anyURI"/>
+    <xsi:element name="releaseSecondaryGenreRYMIdentifier" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The unique identifier that denotes which genre is being used. All genres in the RateYourMusic
+                database have an unique identifier, similar to all releases, that is automatically used when a new genre is
+                approved.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseSecondaryGenreName" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The name of the genre which is being used. Similar to the unique genre key, all genres have
+                a name on RateYourMusic. It's important to include this for clarity.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseSecondaryGenreDescription" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The description of the genre which is being used. Similar to the unique genre key, all genres 
+                must have a description if they are to be approved by the community. The descriptions can vary, but generally
+                give a brief history and summarization that the genre typically sounds like. They're found by simply clicking
+                the genre and are on the left of the genre's page.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseDescriptors" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>Descriptors are important to include because they are similar to genres in their role, however
+                their execution is a lot more simple. Desriptors describe the sound while not attributing any genre to it.
+                Descriptors are a relatively new feature and RateYourMusic and as a result don't have unique identifiers or
+                descriptions. Only one description should be used in this element, however it is repeatable. Some examples
+                of descriptors are: surreal, noisy, menacing, and playful.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseLanguage" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The language that the vocals are in. This element is not mandatory and repeatable because it's
+                possible for a release to be completely instrumental or have multiple languages throughout. Similar to descriptors,
+                there is no hierachy system (like primary and secondary genres) and all languages spoken on the album should be
+                included here. Like everything else, it's important to use the RateYourMusic convention and spell out the word instead
+                of using abbreviatinos, like in Library of Congress.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseArt" type="xsi:anyURI">
+        <xsi:annotation>
+            <xsi:documentation>The release art, otherwise known as album art (even for non-album releases for some reason). This value
+                can only be a URI because either RateYourMusic only has it online, or you need a URL to submit a file to be read into
+                RateYourMusic (the ultimate goal of this schema, to go both ways). It's important that the image resource can be found
+                online. It's also important, like all other releases, to include the correct album art with the issue that the user is
+                cataloging.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
     
     <xsi:element name="releaseTracks">
+        <xsi:annotation>
+            <xsi:documentation>The container that will hold the single track container, which holds multiple elements that give details
+                about the track. This container is important for hierarchical purposes and make sure that each track's information doesn't
+                bleed to another track.
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:releaseTrack" minOccurs="1" maxOccurs="unbounded"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
+    
     <xsi:element name="releaseTrack">
+        <xsi:annotation>
+            <xsi:documentation>The container that holds four elements for the individual information of one track. This is important so that
+                every track has their own information. For example, if someone only produced on song off an album. It also includes vital 
+                informatino such as the name of the track, where it's positioned on the release, the length, and further credits.
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:releaseTrackName" minOccurs="1" maxOccurs="1"/>
@@ -112,10 +296,47 @@
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
-    <xsi:element name="releaseTrackName" type="xsi:string"/>
-    <xsi:element name="releaseTrackPosition" type="xsi:int"/>
-    <xsi:element name="releaseTrackLength" type="xsi:string"/>
+    
+    <xsi:element name="releaseTrackName" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The name of the individual track. If the track is untitled, it is RateYourMusic's to title it [untitled] 
+                (with exactly that syntax). It's important that the track be spelled exactly how it is on the issue (the back of the vinyl
+                record, the inner sleeve of the CD, etc...). Typos should not be corrected, whether they're intentional or not. However,
+                this is RateYourMusic's policy, so the release track name on the release page should just be copied over exactly.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseTrackPosition" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The position of the track as it is on the album. This value is a string instead of an integer because
+                sometimes releases denote their tracks by what side they're on along with the number (e.g. A1 being the first track, B2
+                being the second track on the B side) or sometimes typically experimental artists using symbols to denote which track is
+                which. Besides that, most of the time the position of the track on the release is denoted by a simple integer, which
+                string will also accept as valid. This is mandatory because the track position is automatically generated, even if not
+                input, so if there is track information (which there always isn't), then this will be a value.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseTrackLength" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The length, in hours:minutes:seconds, of the individual track. This information isn't always available
+                on the release's page, but should be included if it is. For example, a track that's 12 minutes and 36 seconds long 
+                should be denoted in this element as: 12:36.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
     <xsi:element name="releaseTrackCredits">
+        <xsi:annotation>
+            <xsi:documentation>The credits for the individual track. It's not necessary to include track credits if the artist
+                is already accredited in releaseCredits because it's assumed that that artist was a part of every track. However,
+                if an artist isn't on every track, it's important to not include them on releaseCredits and include them here
+                for every track that they're on. It's also important to create an artist element to link them to the credits.
+                This is simply the container that holds all the elements for track accreditation. 
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:releaseTrackCreditArtistRYMIdentifier" minOccurs="0" maxOccurs="1"/>
@@ -124,34 +345,107 @@
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
-    <xsi:element name="releaseTrackCreditArtistRYMIdentifier" type="xsi:string"/>
-    <xsi:element name="releaseTrackCreditArtistName" type="xsi:string"/>
-    <xsi:element name="releaseTrackCreditRole" type="xsi:string"/>
     
-    <xsi:element name="releaseLength" type="xsi:string"/>
+    <xsi:element name="releaseTrackCreditArtistRYMIdentifier" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The unique identifier for the artist. It's worth mentioning that not all accredited artists are
+                in RateYourMusic's system, which is why this is an option field. However, if it is it should always be included.
+                This will help link the artist to their involvement in the release to their artist element.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseTrackCreditArtistName" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The name of the artist that is being accredited. This is a mandatory role because every artist will
+                have a name if they are being accredited on an album in any manor. 
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseTrackCreditRole" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The role is simply what involvement they had in the release. This could be producer, or it could
+                be a feature. Essentially, any involvement should be denoted in a role. If the artist had multiple roles in the album,
+                than this element should be repeated for every role.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseLength" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The total length of the release. It should be denoted in hours:minutes:seconds. This value is usually
+                automatically generated by RateYourMusic by adding together all of the individual track lengths. For example, if an
+                album is 1 hour, 46 minutes, and 31 seconds long, it should be denoted as follows: 1:46:31.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
     
     <xsi:element name="releaseCredits">
+        <xsi:annotation>
+            <xsi:documentation>Credits for the artist that are relevant throughout the whole album. Unless it's a split album, this
+                would typically hold the linking information for the main artist behind the release. However, it's definitely possible
+                for multiple artists to be behind the release, which is why this level of hierarchy is important. This is simply
+                the container to hold invididual releaseCredit's.
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:releaseCredit" minOccurs="1" maxOccurs="unbounded"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
+    
     <xsi:element name="releaseCredit">
+        <xsi:annotation>
+            <xsi:documentation>The credit for an individual artist on the entire release. This is the container that holds the linking
+                information and the role of the artist. This container may be repeated if multiple artists had an impact on the entire
+                release.
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
-                <xsi:element ref="RYM:releaseCreditRYMIdentifier" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseCreditArtistRYMIdentifier" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseCreditArtistName" minOccurs="1" maxOccurs="unbounded"/>
                 <xsi:element ref="RYM:releaseCreditRole" minOccurs="1" maxOccurs="unbounded"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
-    <xsi:element name="releaseCreditRYMIdentifier" type="xsi:string"/>
-    <xsi:element name="releaseCreditArtistName" type="xsi:string"/>
-    <xsi:element name="releaseCreditRole" type="xsi:string"/>
     
+    <xsi:element name="releaseCreditArtistRYMIdentifier" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The RateYourMusic unique identifier that is associated with the artist. This field isn't mandatory because
+                sometimes artists are not in the RateYourMusic database. It's less likely to happen than with an artist that is just accredited
+                on one track, however it can still happen and this metadata schema ought to be able to handle any RateYourMusic release. However,
+                99% of the time this field should be filled in.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseCreditArtistName" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The artist name that is accredited to being involved with every track of the release. This is mandatory because, 
+                unlike RateYourMusic unique indifiers, names always appear in the credits of a RateYourMusic release.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseCreditRole" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The role that the artist played on the album. If the artist has played multiple roles, this elemenent should be
+                repeated. The role can be anything, as there is no strict RateYourMusic terminology here. But typically, this can include (for
+                some examples): composer, songwriter, producer, vocalist, guitarist, etc...)
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
  
     <xsi:element name="artist">
+        <xsi:annotation>
+            <xsi:documentation>This is the root element to begin the artist description. All releases should have at least one artist, but can
+                maybe include more. In fact, a release should only have one artist if it's truly a solo project. This container has all the
+                elements for an artist.
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:artistRYMIdentifier" minOccurs="0" maxOccurs="1"/>
@@ -159,17 +453,37 @@
                 <xsi:element ref="RYM:artistFormed" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistDisbanded" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistCurrentLocation" minOccurs="0" maxOccurs="1"/>
-                <xsi:element ref="RYM:artistNotes" minOccurs="0" maxOccurs="unbounded"/>
+                <xsi:element ref="RYM:artistNote" minOccurs="0" maxOccurs="unbounded"/>
                 <xsi:element ref="RYM:artistBiography" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistMembers" minOccurs="0" maxOccurs="1"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
     
-    <xsi:element name="artistRYMIdentifier" type="xsi:string"/>
-    <xsi:element name="artistName" type="xsi:string"/>
+    <xsi:element name="artistRYMIdentifier" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The RateYourMusic unique identifier for an artist. This is important to include if the artist has an unique
+                identifier. It's the best way to link an artist because artist names can always be repeated. However, it's not mandatory
+                because of the above reason.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="artistName" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The name of the artist. This is the one element that all artists on RateYourMusic will have, so it's
+                important to include it. If the artist has multiple names, it's important to choose the name he was going by on
+                the release that this artist is associated too. If it's important to include other names, that can be noted in the
+                artistNotes element.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
     
     <xsi:element name="artistFormed">
+        <xsi:annotation>
+            <xsi:documentation>This is the container that gives information about the formation of the artist.
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:artistFormedDate" minOccurs="0" maxOccurs="1"/>
@@ -178,11 +492,43 @@
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
-    <xsi:element name="artistFormedDate" type="xsi:string"/>
-    <xsi:element name="artistFormedLocation" type="xsi:string"/>
-    <xsi:element name="artistFormedCause" type="xsi:string"/>
+    
+    <xsi:element name="artistFormedDate" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>This is the date that the artist was formed. It should be formatted in the same
+                way that RateYourMusic formats it (why it's a string), which is [int:day] [word:month] [int:full year].
+                For example: 4 March 1998.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="artistFormedLocation" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>This is where the artist formed their group. This element is typically no more complex
+                than a town or city (i.e., you don't have to denote the exact place like Lucy's Bar). RateYourMusic 
+                has a typical naming convention, which is two use commas and abbreviations for American states. For
+                counties outside the U.S., they are spelled out in full. For example: Los Angeles, CA, United States or
+                New Delhi, Delhi, India.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="artistFormedCause" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>This is the cause of the artist's formation. If it's a solo artist, you can put "Born" here
+                and then use the former two fields to list their birth date and birth location. However, if it's an artist that
+                consists of multiple members, there may still be a cause. If that information is unknown then this field
+                can be skipped.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
     
     <xsi:element name="artistDisbanded">
+        <xsi:annotation>
+            <xsi:documentation>This is the container that gives information on how the artist disbanded. This container
+                should be skipped if the artist is still active.
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:artistDisbandedDate" minOccurs="0" maxOccurs="1"/>
@@ -191,33 +537,138 @@
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
-    <xsi:element name="artistDisbandedDate" type="xsi:string"/>
-    <xsi:element name="artistDisbandedLocation" type="xsi:string"/>
-    <xsi:element name="artistDisbandedCause" type="xsi:string"/>
     
-    <xsi:element name="artistCurrentLocation" type="xsi:string"/>
-    <xsi:element name="artistNotes" type="xsi:string"/>
-    <xsi:element name="artistBiography" type="xsi:string"/>
+    <xsi:element name="artistDisbandedDate" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>This is the date that the artist was formed. It should be formatted in the same
+                way that RateYourMusic formats it (why it's a string), which is [int:day] [word:month] [int:full year].
+                For example: 30 September 2007.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="artistDisbandedLocation" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>This is where the artist formed their group. This element is typically no more complex
+                than a town or city (i.e., you don't have to denote the exact place like Fred's Bar). RateYourMusic 
+                has a typical naming convention, which is two use commas and abbreviations for American states. For
+                counties outside the U.S., they are spelled out in full. For example: Chicago, IL, United States or
+                Kampala, Kampala, Uganda.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="artistDisbandedCause" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>This is the cause for the artist not being active anymore. If it's a solo artist, you 
+                can put "Died" here and then use the former two fields to list their birth date death location. However, 
+                if it's an artist that consists of multiple members, there may still be a cause. If that information is 
+                unknown then this field can be skipped.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="artistCurrentLocation" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The current location of the artist. Must follow RateYourMusic's location vocabulary. Can
+                be skipped if their current location is unknown or the artist already disbanded.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="artistNote" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>This is where miscellenous notes can go that are important to the artist. For example,
+                family or marriage relationships with other artists, names that the artist is also known as, what
+                record label(s) this artist owns, etc... This is a repeatable field, which means that only one
+                note should go in one element. If there are multiple aspects of this artist that are relevant to
+                the release, simply create another artistNote element.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="artistBiography" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The life-story of the artist. This is a feature on a RateYourMusic artist's page
+                that goes into the artist's personal life. It doesn't always appear, but when it does it should
+                be included. This field isn't repeatable because it's always one big block of text.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
     
     <xsi:element name="artistMembers">
+        <xsi:annotation>
+            <xsi:documentation>The artists that are in the artist. This field should be skipped if this entity is 
+                describing a solo artist, but should be included if the entity is describing a group, e.g. a band.
+                Every memeber in the group should get their own artist entity and have it linked to the elements
+                inside artistMember. Ideally, they are linked with the unique identifier, however if that doesn't
+                exist then a name is fine.
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:artistMember" minOccurs="1" maxOccurs="unbounded"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
+    
     <xsi:element name="artistMember">
+        <xsi:annotation>
+            <xsi:documentation>This is the container that holds all the linking information for the artist in
+                the group. It also holds information about the time that they were part of the group and the
+                role that they played within the group.
+            </xsi:documentation>
+        </xsi:annotation>
         <xsi:complexType>
             <xsi:sequence>
                 <xsi:element ref="RYM:artistMemberRYMIdentifier" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistMemberName" minOccurs="1" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistMemberDateJoined" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistMemberDateLeft" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistMemberRole" minOccurs="0" maxOccurs="unbounded"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
-    <xsi:element name="artistMemberRYMIdentifier" type="xsi:string"/>
-    <xsi:element name="artistMemberName" type="xsi:string"/>
-    <xsi:element name="artistMemberDateJoined" type="xsi:string"/>
-    <xsi:element name="artistMemberDateLeft" type="xsi:string"/>
+    
+    <xsi:element name="artistMemberRYMIdentifier" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The RateYourMusic unique identifier for the member of the group. It's more often
+                for a member of a group to not have an unique identifier than a solo artist, which is why this
+                is optional, but should be populated if available.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="artistMemberName" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The name of the member in the group. This should be what the member goes by in
+                the band, not simply his birth name.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="artistMemberDateJoined" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The date that the artist joined the group. This should follow the RateYourMusic
+                guidelines when formatting dates.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="artistMemberDateLeft" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The date that the artist left the group. This should follow the RateYourMusic
+                guidelines when formatting dates.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="artistMemberRole" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The role that this member played specifically within the band. This can be
+                multiple roles, which is why this field is allowed to be repeated. For example, the same
+                member can be a vocalist and a bassist.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
 </xsi:schema>
