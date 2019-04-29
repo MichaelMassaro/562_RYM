@@ -202,7 +202,7 @@
     <xsi:element name="artistMembers">
         <xsi:complexType>
             <xsi:sequence>
-                <xsi:element ref="RYM:artistMember" minOccurs="1" maxOccurs="unbounded"></xsi:element>
+                <xsi:element ref="RYM:artistMember" minOccurs="1" maxOccurs="unbounded"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
