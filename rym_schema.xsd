@@ -48,6 +48,7 @@
                 <xsi:element ref="RYM:releaseType" minOccurs="1" maxOccurs="unbounded"/>
                 <xsi:element ref="RYM:releaseTitle" minOccurs="1" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseDate" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseLabel" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseGenres" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseDescriptor" minOccurs="0" maxOccurs="unbounded"/>
                 <xsi:element ref="RYM:releaseLanguage" minOccurs="0" maxOccurs="unbounded"/>
@@ -101,6 +102,15 @@
                 the specific issue that this release is. It's also important to not use a conventional date 
                 convention, like Library of Congress, because RateYourMusic has a different convention, which follows
                 the format: [number for day] [full month spelled out] full number for year], e.g., 1 November 2011.
+            </xsi:documentation>
+        </xsi:annotation>
+    </xsi:element>
+    
+    <xsi:element name="releaseLabel" type="xsi:string">
+        <xsi:annotation>
+            <xsi:documentation>The label that the issue being catalogued was released on. This isn't a repeatable
+                value because only one issue should have one label. It's possible that a release, overall its
+                re-issues, has been released on multiple labels, but this field doesn't aim to accomplish that.
             </xsi:documentation>
         </xsi:annotation>
     </xsi:element>
