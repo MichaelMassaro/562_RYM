@@ -140,14 +140,14 @@
     <xsi:element name="releaseCredit">
         <xsi:complexType>
             <xsi:sequence>
-                <xsi:element ref="RYM:releaseCreditArtistName" minOccurs="1" maxOccurs="unbounded"/>
                 <xsi:element ref="RYM:releaseCreditRYMIdentifier" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseCreditArtistName" minOccurs="1" maxOccurs="unbounded"/>
                 <xsi:element ref="RYM:releaseCreditRole" minOccurs="1" maxOccurs="unbounded"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
-    <xsi:element name="releaseCreditArtistName" type="xsi:string"/>
     <xsi:element name="releaseCreditRYMIdentifier" type="xsi:string"/>
+    <xsi:element name="releaseCreditArtistName" type="xsi:string"/>
     <xsi:element name="releaseCreditRole" type="xsi:string"/>
     
  
