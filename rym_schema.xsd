@@ -55,7 +55,7 @@
                 <xsi:element ref="RYM:releaseArt" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseTracks" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseLength" minOccurs="0" maxOccurs="1"/>
-                <xsi:element ref="RYM:releaseCredits" minOccurs="1" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseCredits" minOccurs="0" maxOccurs="1"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
