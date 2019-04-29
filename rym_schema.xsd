@@ -174,11 +174,13 @@
             <xsi:sequence>
                 <xsi:element ref="RYM:artistFormedDate" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistFormedLocation" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistFormedCause" minOccurs="0" maxOccurs="1"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
     <xsi:element name="artistFormedDate" type="xsi:date"/>
     <xsi:element name="artistFormedLocation" type="xsi:string"/>
+    <xsi:element name="artistFormedCause" type="xsi:string"/>
     
     <xsi:element name="artistDisbanded">
         <xsi:complexType>
