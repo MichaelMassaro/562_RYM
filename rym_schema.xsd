@@ -161,7 +161,6 @@
                 <xsi:element ref="RYM:artistCurrentLocation" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistNotes" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistBiography" minOccurs="0" maxOccurs="1"/>
-                <xsi:element ref="RYM:artistRole" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistMembers" minOccurs="0" maxOccurs="1"/>
             </xsi:sequence>
         </xsi:complexType>
@@ -197,7 +196,6 @@
     <xsi:element name="artistCurrentLocation" type="xsi:string"/>
     <xsi:element name="artistNotes" type="xsi:string"/>
     <xsi:element name="artistBiography" type="xsi:string"/>
-    <xsi:element name="artistRole" type="xsi:string"/>
     
     <xsi:element name="artistMembers">
         <xsi:complexType>
