@@ -49,12 +49,12 @@
                 <xsi:element ref="RYM:releaseTitle" minOccurs="1" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseDate" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseGenres" minOccurs="0" maxOccurs="1"/>
-                <xsi:element ref="RYM:releaseDescriptors" minOccurs="0" maxOccurs="unbounded"/>
+                <xsi:element ref="RYM:releaseDescriptor" minOccurs="0" maxOccurs="unbounded"/>
                 <xsi:element ref="RYM:releaseLanguage" minOccurs="0" maxOccurs="unbounded"/>
                 <xsi:element ref="RYM:releaseArt" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseTracks" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseLength" minOccurs="0" maxOccurs="1"/>
-                <xsi:element ref="RYM:releaseCredits" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:releaseCredits" minOccurs="1" maxOccurs="1"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
@@ -76,35 +76,7 @@
                 RateYourMusic has a viety of release types, including: albums, EPs, singles, mixtapes, DJ mixes,
                 compilations, videos, bootlegs, collaborations, and splits. The type of release can vastly change
                 how the rest of the metadata looks, and while certain types can be inferred from that, it helps the
-                overall readability. There are also certain releases that
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                look like one release and are in-fact 
+                overall readability. There are also certain releases that look like one release and are in-fact 
                 another. For example, an EP that has 4 20-minute long songs would be assumed to be a full-length.
                 album. It's also important for this value to repeat because, for example, something can be both an 
                 EP and split.
@@ -270,7 +242,7 @@
         </xsi:annotation>
     </xsi:element>
     
-    <xsi:element name="releaseDescriptors" type="xsi:string">
+    <xsi:element name="releaseDescriptor" type="xsi:string">
         <xsi:annotation>
             <xsi:documentation>Descriptors are important to include because they are similar to genres in their role, however
                 their execution is a lot more simple. Desriptors describe the sound while not attributing any genre to it.
@@ -378,7 +350,7 @@
             <xsi:sequence>
                 <xsi:element ref="RYM:releaseTrackCreditArtistRYMIdentifier" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseTrackCreditArtistName" minOccurs="1" maxOccurs="1"/>
-                <xsi:element ref="RYM:releaseTrackCreditRole" minOccurs="1" maxOccurs="unbounded"/>
+                <xsi:element ref="RYM:releaseTrackCreditRole" minOccurs="0" maxOccurs="unbounded"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
@@ -444,7 +416,7 @@
             <xsi:sequence>
                 <xsi:element ref="RYM:releaseCreditArtistRYMIdentifier" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseCreditArtistName" minOccurs="1" maxOccurs="unbounded"/>
-                <xsi:element ref="RYM:releaseCreditRole" minOccurs="1" maxOccurs="unbounded"/>
+                <xsi:element ref="RYM:releaseCreditRole" minOccurs="0" maxOccurs="unbounded"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
@@ -487,8 +459,8 @@
             <xsi:sequence>
                 <xsi:element ref="RYM:artistRYMIdentifier" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistName" minOccurs="1" maxOccurs="1"/>
-                <xsi:element ref="RYM:artistFormed" minOccurs="0" maxOccurs="1"/>
-                <xsi:element ref="RYM:artistDisbanded" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistFormed" minOccurs="0" maxOccurs="unbounded"/>
+                <xsi:element ref="RYM:artistDisbanded" minOccurs="0" maxOccurs="unbounded"/>
                 <xsi:element ref="RYM:artistCurrentLocation" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistNote" minOccurs="0" maxOccurs="unbounded"/>
                 <xsi:element ref="RYM:artistBiography" minOccurs="0" maxOccurs="1"/>
@@ -660,8 +632,8 @@
             <xsi:sequence>
                 <xsi:element ref="RYM:artistMemberRYMIdentifier" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistMemberName" minOccurs="1" maxOccurs="1"/>
-                <xsi:element ref="RYM:artistMemberDateJoined" minOccurs="0" maxOccurs="1"/>
-                <xsi:element ref="RYM:artistMemberDateLeft" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistMemberDateJoined" minOccurs="0" maxOccurs="unbounded"/>
+                <xsi:element ref="RYM:artistMemberDateLeft" minOccurs="0" maxOccurs="unbounded"/>
                 <xsi:element ref="RYM:artistMemberRole" minOccurs="0" maxOccurs="unbounded"/>
             </xsi:sequence>
         </xsi:complexType>
