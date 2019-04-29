@@ -209,15 +209,15 @@
     <xsi:element name="artistMember">
         <xsi:complexType>
             <xsi:sequence>
-                <xsi:element ref="RYM:artistMemberName" minOccurs="1" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistMemberRYMIdentifier" minOccurs="0" maxOccurs="1"/>
+                <xsi:element ref="RYM:artistMemberName" minOccurs="1" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistMemberDateJoined" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:artistMemberDateLeft" minOccurs="0" maxOccurs="1"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
-    <xsi:element name="artistMemberName" type="xsi:string"/>
     <xsi:element name="artistMemberRYMIdentifier" type="xsi:string"/>
+    <xsi:element name="artistMemberName" type="xsi:string"/>
     <xsi:element name="artistMemberDateJoined" type="xsi:string"/>
     <xsi:element name="artistMemberDateLeft" type="xsi:string"/>
 </xsi:schema>
