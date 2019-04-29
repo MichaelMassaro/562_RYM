@@ -8,7 +8,7 @@
     
     Editor: Michael Massaro
     
-    Link to GitHub Repo in targetNamespace and xlns:RYM attribute
+    Link to GitHub Repo: https://github.com/MichaelMassaro/562_RYM
 -->
     <xsi:element name="RYM">
         <xsi:annotation>
