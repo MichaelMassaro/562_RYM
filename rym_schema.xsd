@@ -178,7 +178,7 @@
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
-    <xsi:element name="artistFormedDate" type="xsi:date"/>
+    <xsi:element name="artistFormedDate" type="xsi:string"/>
     <xsi:element name="artistFormedLocation" type="xsi:string"/>
     <xsi:element name="artistFormedCause" type="xsi:string"/>
     
@@ -191,7 +191,7 @@
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
-    <xsi:element name="artistDisbandedDate" type="xsi:date"/>
+    <xsi:element name="artistDisbandedDate" type="xsi:string"/>
     <xsi:element name="artistDisbandedLocation" type="xsi:string"/>
     <xsi:element name="artistDisbandedCause" type="xsi:string"/>
     
@@ -218,6 +218,6 @@
     </xsi:element>
     <xsi:element name="artistMemberName" type="xsi:string"/>
     <xsi:element name="artistMemberRYMIdentifier" type="xsi:string"/>
-    <xsi:element name="artistMemberDateJoined" type="xsi:date"/>
-    <xsi:element name="artistMemberDateLeft" type="xsi:date"/>
+    <xsi:element name="artistMemberDateJoined" type="xsi:string"/>
+    <xsi:element name="artistMemberDateLeft" type="xsi:string"/>
 </xsi:schema>
