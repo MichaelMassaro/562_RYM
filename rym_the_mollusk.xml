@@ -3,6 +3,8 @@
     xsi1:schemaLocation="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd rym_schema.xsd" 
     xmlns:RYM="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+    <!-- Metadata schema to outline the mandatory minimum requirements (artist identifier not given even
+    though it's available. -->
     <RYM:releaseInfo>
         <RYM:release>
             <RYM:releaseRYMIdentifier>[Album5386]</RYM:releaseRYMIdentifier>
@@ -10,14 +12,11 @@
             <RYM:releaseTitle>The Mollusk</RYM:releaseTitle>
             <RYM:releaseCredits>
                 <RYM:releaseCredit>
-                    <RYM:releaseCreditArtistRYMIdentifier>[Artist1499]</RYM:releaseCreditArtistRYMIdentifier>
                     <RYM:releaseCreditArtistName>Ween</RYM:releaseCreditArtistName>
-                    <RYM:releaseCreditRole>Release Artist</RYM:releaseCreditRole>
                 </RYM:releaseCredit>
             </RYM:releaseCredits>
         </RYM:release>
         <RYM:artist>
-            <RYM:artistRYMIdentifier>[Artist1499]</RYM:artistRYMIdentifier>
             <RYM:artistName>Ween</RYM:artistName>
         </RYM:artist>
     </RYM:releaseInfo>
