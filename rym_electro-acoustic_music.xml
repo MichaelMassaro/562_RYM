@@ -72,12 +72,12 @@
                 <RYM:releaseCredit>
                     <RYM:releaseCreditArtistRYMIdentifier>[Artist3441]</RYM:releaseCreditArtistRYMIdentifier>
                     <RYM:releaseCreditArtistName>Iannis Xenakis</RYM:releaseCreditArtistName>
-                    <RYM:releaseCreditRole>Composer</RYM:releaseCreditRole>
+                    <RYM:releaseCreditArtistRole>Composer</RYM:releaseCreditArtistRole>
                 </RYM:releaseCredit>
                 <RYM:releaseCredit>
                     <RYM:releaseCreditArtistRYMIdentifier>[Artist78142]</RYM:releaseCreditArtistRYMIdentifier>
                     <RYM:releaseCreditArtistName>Groupe de Recherches Musicales de la RTF</RYM:releaseCreditArtistName>
-                    <RYM:releaseCreditRole>Performer</RYM:releaseCreditRole>
+                    <RYM:releaseCreditArtistRole>Performer</RYM:releaseCreditArtistRole>
                 </RYM:releaseCredit>
             </RYM:releaseCredits>
         </RYM:release>
