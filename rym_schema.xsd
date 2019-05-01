@@ -2,8 +2,8 @@
 <xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema" 
     elementFormDefault="qualified" 
     attributeFormDefault="qualified" 
-    targetNamespace="https://raw.githubusercontent.com/MichaelMassaro/562_RYM/master/rym_schema.xsd" 
-    xmlns:RYM="https://raw.githubusercontent.com/MichaelMassaro/562_RYM/master/rym_schema.xsd">
+    targetNamespace="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd" 
+    xmlns:RYM="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd">
 <!-- 
     RYM 1.0
     Metadata schema for a single release on RateYourMusic.com
@@ -75,7 +75,26 @@
         </xsi:annotation>
     </xsi:element>
     
-    <xsi:element name="releaseType" type="xsi:string">
+    <xsi:simpleType name="allowedTypes">
+        <xsi:restriction base="xsi:string">
+            <xsi:enumeration value="Album"/>
+            <xsi:enumeration value="EP"/>
+            <xsi:enumeration value="Single"/>
+            <xsi:enumeration value="Mixtape"/>
+            <xsi:enumeration value="DJ Mix"/>
+            <xsi:enumeration value="Compilation"/>
+            <xsi:enumeration value="Video"/>
+            <xsi:enumeration value="Bootleg"/>
+            <xsi:enumeration value="Split"/>
+            <xsi:enumeration value="Collaboration"/>
+            <xsi:enumeration value="Live"/>
+            <xsi:enumeration value="Archival"/>
+            <xsi:enumeration value="Soundtrack"/>
+            <xsi:enumeration value="Promo"/>
+        </xsi:restriction>
+    </xsi:simpleType>
+    
+    <xsi:element name="releaseType" type="RYM:allowedTypes">
         <xsi:annotation>
             <xsi:documentation xml:lang="en">releaseType is the type of release as far as the format of the music.
                 RateYourMusic has a viety of release types, including: albums, EPs, singles, mixtapes, DJ mixes,
@@ -430,7 +449,7 @@
             <xsi:sequence>
                 <xsi:element ref="RYM:releaseCreditArtistRYMIdentifier" minOccurs="0" maxOccurs="1"/>
                 <xsi:element ref="RYM:releaseCreditArtistName" minOccurs="1" maxOccurs="unbounded"/>
-                <xsi:element ref="RYM:releaseCreditRole" minOccurs="0" maxOccurs="unbounded"/>
+                <xsi:element ref="RYM:releaseCreditArtistRole" minOccurs="0" maxOccurs="unbounded"/>
             </xsi:sequence>
         </xsi:complexType>
     </xsi:element>
@@ -453,7 +472,7 @@
         </xsi:annotation>
     </xsi:element>
     
-    <xsi:element name="releaseCreditRole" type="xsi:string">
+    <xsi:element name="releaseCreditArtistRole" type="xsi:string">
         <xsi:annotation>
             <xsi:documentation>The role that the artist played on the album. If the artist has played multiple roles, this elemenent should be
                 repeated. The role can be anything, as there is no strict RateYourMusic terminology here. But typically, this can include (for
