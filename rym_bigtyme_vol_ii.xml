@@ -185,8 +185,8 @@
                 <RYM:releaseCredit>
                     <RYM:releaseCreditArtistRYMIdentifier>[Artist73932]</RYM:releaseCreditArtistRYMIdentifier>
                     <RYM:releaseCreditArtistName>DJ Screw</RYM:releaseCreditArtistName>
-                    <RYM:releaseCreditRole>Release Artist</RYM:releaseCreditRole>
-                    <RYM:releaseCreditRole>DJ</RYM:releaseCreditRole>
+                    <RYM:releaseCreditArtistRole>Release Artist</RYM:releaseCreditArtistRole>
+                    <RYM:releaseCreditArtistRole>DJ</RYM:releaseCreditArtistRole>
                 </RYM:releaseCredit>
             </RYM:releaseCredits>
         </RYM:release>
