@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RYM:RYM xmlns:xsi1="http://www.w3.org/2001/XMLSchema-instance"
+    xsi1:schemaLocation="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd rym_schema.xsd" 
+    xmlns:RYM="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+    
+    <RYM:releaseInfo>   
+        <RYM:release>
+            <RYM:releaseRYMIdentifier>[Album29709]</RYM:releaseRYMIdentifier>
+            <RYM:releaseType>Bootleg</RYM:releaseType>
+            <RYM:releaseTitle>New York Sessions: Blood on the Tracks</RYM:releaseTitle>
+            <RYM:releaseDate>1998</RYM:releaseDate>
+            <RYM:releaseGenres>
+                <RYM:releasePrimaryGenres>
+                    <RYM:releasePrimaryGenre>
+                        <RYM:releasePrimaryGenreRYMIdentifier>[Genre209]</RYM:releasePrimaryGenreRYMIdentifier>
+                        <RYM:releasePrimaryGenreName>Contemporary Folk</RYM:releasePrimaryGenreName>
+                        <RYM:releasePrimaryGenreDescription>Contemporary folk music (often referred to just as "folk" by some Americans) consists of music derived, directly or indirectly, from folk traditions and influenced significantly by popular music. The genre is largely distinct from these folk traditions but still maintains a stylistic link and an ultimate lineage from the traditional forms. Unlike traditional folk music, the majority of contemporary folk songs are either new compositions or new arrangements of traditional songs which can involve substantial deviations from the source music - such as changes in instrumentation, including use of electric instruments.</RYM:releasePrimaryGenreDescription>
+                    </RYM:releasePrimaryGenre>
+                    <RYM:releasePrimaryGenre>
+                        <RYM:releasePrimaryGenreRYMIdentifier>[Genre558]</RYM:releasePrimaryGenreRYMIdentifier>
+                        <RYM:releasePrimaryGenreName>Singer/Songwriter</RYM:releasePrimaryGenreName>
+                        <RYM:releasePrimaryGenreDescription>The singer/songwriter genre is rooted in the traditions of the mediaeval bards and troubadours of the 15th and 16th centuries. This style of 'musical storytelling' was championed in the post-war era by Woody Guthrie, Dorival Caymmi and others, usually presented as one man and his guitar. In the US the sound evolved with the American Contemporary Folk scene of the 1950s and early 1960s where artists such as Bob Dylan and Pete Seeger began to write and play their own songs, whilst at the same time artists such as Georges Brassens, Joan Manuel Serrat, Gino Paoli, Víctor Jara and Chico Buarque were developing along similar lines in Europe and Latin America, leading to the development of genres like Liedermacher, Cantautori and Nueva canción and influencing Chanson. The term singer/songwriter actually arose in the late 1960s / early 1970s to describe a group of artists such as Carole King, Harry Nilsson and Randy Newman who had worked as professional songwriters and had hits recorded by other artists, but who then were able to start singing and recording their own material. Rapidly however the term became co-opted to describe the music being created by the likes of Dylan and Seeger, as well as Jackson Browne, James Taylor, Joni Mitchell and others in the American protest movement of the time and soon spread to cover similar artists working outside America. The genre's defining qualities include confessional or political lyrics, typically with sparse acoustic accompaniment (acoustic guitar or piano) and an arrangement that relies more on the strength of the song and the performance than on production techniques or musical style. The original artists were rooted in Folk traditions but the genre has evolved to include a much broader range of influences, for example Blues, Lounge, Jazz and even Pop.</RYM:releasePrimaryGenreDescription>
+                    </RYM:releasePrimaryGenre>
+                    <RYM:releasePrimaryGenre>
+                        <RYM:releasePrimaryGenreRYMIdentifier>[Genre66]</RYM:releasePrimaryGenreRYMIdentifier>
+                        <RYM:releasePrimaryGenreName>Folk Rock</RYM:releasePrimaryGenreName>
+                        <RYM:releasePrimaryGenreDescription>While in a broad sense Folk Rock can refer to any mix between Rock and Folk music, the term has been commonly applied to Rock-based music that has a strong influence from certain aspects of Folk, such as its acoustic-based instrumentation and relatively simple musical arrangements. As such, Folk Rock started developing as a genre during the 1960s, and can be considered as a derivation of the Contemporary Folk expressions in the United States. The style was arguably pioneered by releases such as The Beau Brummels' "Laugh, Laugh" and Bob Dylan's "Mixed Up Confusion" singles. However, two events have commonly been described as catalysts for the development of the Folk Rock movement: the success of the Folk-inflicted, chiming sound of The Byrds and the decision by Dylan (considered a key figure of the American Contemporary Folk movement during the early 1960s) to include electric instrumentation and a backing band in most of his recordings and performances during the mid-60s. Other prominent North American Folk Rock musicians during this era include The Band, Buffalo Springfield, The Leaves, Crosby, Stills and Nash and Tim Buckley. Folk Rock was also influential to the sound of Psychedelic Rock bands like Love and Jefferson Airplane. In the United Kingdom, figures such as Van Morrison and Cat Stevens, associated with the Singer/Songwriter genre, would also become connected with the movement. A British Folk Rock style, which mixed Rock and elements of British Folk, would also emerge, represented by bands such as Fairport Convention, The Pentangle and Steeleye Span. Folk Rock also shared close ties with Folk Pop; artists such as Simon and Garfunkel and Donovan have been considered part of both styles. The genre would also serve as precursor to similarly-minded movements that had their basis in both Rock (such as Country Rock, Roots Rock and Folk Punk) and Folk (exemplified by Psychedelic Folk). Folk Rock has also produced regional variations like Anatolian Rock, Celtic Rock and Nordic Folk Rock.</RYM:releasePrimaryGenreDescription>
+                    </RYM:releasePrimaryGenre>
+                </RYM:releasePrimaryGenres>
+            </RYM:releaseGenres>
+            <RYM:releaseDescriptor>breakup</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>lonely</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>male vocals</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>melancholic</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>poetic</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>mellow</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>ballad</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>passionate</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>bittersweet</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>introspective</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>love</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>acoustic</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>sentimental</RYM:releaseDescriptor>
+            <RYM:releaseLanguage>English</RYM:releaseLanguage>
+            <RYM:releaseArt>https://e.snmc.io/i/fullres/s/9dd1b8197cd5e3331439e504c6deb698/1259285</RYM:releaseArt>
+            <RYM:releaseTracks>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Tangled Up in Blue</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>1</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>6:53</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Simple Twist of Fate</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>2</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>4:23</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>You're a Big Girl Now</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>3</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>4:24</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Idiot Wind</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>4</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>8:53</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>You're Gonna Make Me Lonesome When You Go</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>5</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>3:05</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Meet Me in the Morning</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>6</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>4:30</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Lily, Rosemary and the Jack of Hearts</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>7</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>9:52</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>If You See Her, Say Hello</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>8</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>3:26</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Shelter from the Storm</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>9</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>5:01</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Buckets of Rain</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>10</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>3:26</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+            </RYM:releaseTracks>
+            <RYM:releaseLength>53:53</RYM:releaseLength>
+            <RYM:releaseCredits>
+                <RYM:releaseCredit>
+                    <RYM:releaseCreditArtistRYMIdentifier>[Artist22]</RYM:releaseCreditArtistRYMIdentifier>
+                    <RYM:releaseCreditArtistName>Bob Dylan</RYM:releaseCreditArtistName>
+                    <RYM:releaseCreditArtistRole>vocals</RYM:releaseCreditArtistRole>
+                    <RYM:releaseCreditArtistRole>guitar</RYM:releaseCreditArtistRole>
+                    <RYM:releaseCreditArtistRole>writer</RYM:releaseCreditArtistRole>
+                    <RYM:releaseCreditArtistRole>producer</RYM:releaseCreditArtistRole>
+                    <RYM:releaseCreditArtistRole>harmonica</RYM:releaseCreditArtistRole>
+                </RYM:releaseCredit>
+                <RYM:releaseCredit>
+                    <RYM:releaseCreditArtistRYMIdentifier>[Artist1083148]</RYM:releaseCreditArtistRYMIdentifier>
+                    <RYM:releaseCreditArtistName>Tony Brown</RYM:releaseCreditArtistName>
+                    <RYM:releaseCreditArtistRole>bass</RYM:releaseCreditArtistRole>
+                </RYM:releaseCredit>
+                <RYM:releaseCredit>
+                    <RYM:releaseCreditArtistRYMIdentifier>[Artist199537]</RYM:releaseCreditArtistRYMIdentifier>
+                    <RYM:releaseCreditArtistName>Paul Griffin</RYM:releaseCreditArtistName>
+                    <RYM:releaseCreditArtistRole>organ</RYM:releaseCreditArtistRole>              
+                </RYM:releaseCredit>
+                <RYM:releaseCredit>
+                    <RYM:releaseCreditArtistRYMIdentifier>[Artist1083147]</RYM:releaseCreditArtistRYMIdentifier>
+                    <RYM:releaseCreditArtistName>Charles Brown III</RYM:releaseCreditArtistName>
+                    <RYM:releaseCreditArtistRole>guitar</RYM:releaseCreditArtistRole>
+                </RYM:releaseCredit>
+                <RYM:releaseCredit>
+                    <RYM:releaseCreditArtistRYMIdentifier>[Artist79336]</RYM:releaseCreditArtistRYMIdentifier>
+                    <RYM:releaseCreditArtistName>Eric Weissberg</RYM:releaseCreditArtistName>
+                    <RYM:releaseCreditArtistRole>guitar</RYM:releaseCreditArtistRole>
+                </RYM:releaseCredit>
+                <RYM:releaseCredit>
+                    <RYM:releaseCreditArtistRYMIdentifier>[Artist483620]</RYM:releaseCreditArtistRYMIdentifier>
+                    <RYM:releaseCreditArtistName>Barry Kornfeld</RYM:releaseCreditArtistName>
+                    <RYM:releaseCreditArtistRole>guitar</RYM:releaseCreditArtistRole>
+                </RYM:releaseCredit>
+                <RYM:releaseCredit>
+                    <RYM:releaseCreditArtistRYMIdentifier>[Artist1002129]</RYM:releaseCreditArtistRYMIdentifier>
+                    <RYM:releaseCreditArtistName>Buddy Cage</RYM:releaseCreditArtistName>
+                    <RYM:releaseCreditArtistRole>steel guitar</RYM:releaseCreditArtistRole>
+                </RYM:releaseCredit>
+                <RYM:releaseCredit>
+                    <RYM:releaseCreditArtistRYMIdentifier>[Artist1065482]</RYM:releaseCreditArtistRYMIdentifier>
+                    <RYM:releaseCreditArtistName>Richard Crooks</RYM:releaseCreditArtistName>
+                    <RYM:releaseCreditArtistRole>drums</RYM:releaseCreditArtistRole>
+                </RYM:releaseCredit>
+                <RYM:releaseCredit>
+                    <RYM:releaseCreditArtistRYMIdentifier>[Artist1083152]</RYM:releaseCreditArtistRYMIdentifier>
+                    <RYM:releaseCreditArtistName>Thomas McFaul</RYM:releaseCreditArtistName>
+                    <RYM:releaseCreditArtistRole>keyboards</RYM:releaseCreditArtistRole>
+                </RYM:releaseCredit> 
+                <RYM:releaseCredit>
+                    <RYM:releaseCreditArtistRYMIdentifier>[Artist189251]</RYM:releaseCreditArtistRYMIdentifier>
+                    <RYM:releaseCreditArtistName>Pete Hamill</RYM:releaseCreditArtistName>
+                    <RYM:releaseCreditArtistRole>liner notes</RYM:releaseCreditArtistRole>
+                </RYM:releaseCredit> 
+            </RYM:releaseCredits>           
+        </RYM:release>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist22]</RYM:artistRYMIdentifier>
+            <RYM:artistName>Bob Dylan</RYM:artistName>
+            <RYM:artistFormed>
+                <RYM:artistFormedDate>24 May 1941</RYM:artistFormedDate>
+                <RYM:artistFormedLocation>Duluth, MN, United States</RYM:artistFormedLocation>
+                <RYM:artistFormedCause>Born</RYM:artistFormedCause>
+            </RYM:artistFormed>
+            <RYM:artistCurrentLocation>Malibu, CA, United States</RYM:artistCurrentLocation>
+            <RYM:artistNote>Married to Sara Dylan [1965-77] and Carolyn Dennis [1986-92]; father of Jakob Dylan and Jesse Dylan</RYM:artistNote>
+            <RYM:artistBiography>Bob Dylan was born Robert Allen Zimmerman on May 24, 1941 in the town of Duluth, Minnesota. Dylan moved with his family to Hibbing, Minnesota when he was six years old and remained there through high school. He taught himself how to play guitar, harmonica and piano in his early teens and later formed the Rock and Roll group The Golden Chords. Bob graduated from high school in 1959 and went on to study at the University of Minnesota in Minneapolis. While attending the school he began to perform locally as a folk singer under the alias of Bob Dylan. Dylan dropped out of university and moved to New York City in the winter of 1961. He began performing in coffeehouses and clubs in the Greenwich Village area and managed to generate a small following in the Greenwich Village folk community. In the fall of 1961 Dylan was signed to Columbia Records by John Hammond and began recording his first album with John Hammond producing. His self-titled debut, Bob Dylan, was released in March of 1962. It largely consisted of folk and blues covers, with only two original Dylan songs appearing on the album. Dylan's second album, The Freewheelin' Bob Dylan, was released in May of 1963. It consisted of 13 acoustic folk songs, mostly Dylan originals. This album took a lot of people by surprise when it was released after his very modest debut album and is now considered one of Dylan's most essential recordings. He followed that album up with two more acoustic folk releases in 1964. In 1965, Dylan turned his back on folk music and in the process made history when he plugged in and went electric. He released his first electric album, Bringing It All Back Home, that year. The album consisted of half electric rock and roll tracks and half acoustic Folk songs in the vein of his previous albums. He followed Bringing It All Back Home up with Highway 61 Revisited, an album consisting of almost entirely electric songs, later that year. Highway 61 Revisited along with its follow-up Blonde on Blonde, which was released in May of 1966, are considered by many of Dylan's fans to be his best and most essential recordings. On July 29, 1966, Dylan was severely injured in a motorcycle accident. After this he took a break and didn't release another album until John Wesley Harding in 1967. This album was a change from the harder edged electric sound of his hugely successful albums of 1965 and 1966. It was a shift to a more easy going country sound. He released four more albums in this form and then moved from Columbia Records to the smaller Asylum Records in 1973. While with Asylum, Dylan released his first number one album, Planet Waves, and a live album from the accompanying tour called Before the Flood. Dylan returned to Columbia Records and followed up the commercial success of his last album with Blood on the Tracks, which critics applauded as a return to form after a period in which they viewed Dylan as being on the decline. He followed Blood on the Tracks up with Desire in 1976 and Street-Legal in 1978. Following the release of Street-Legal, Dylan entered one of his most controversial periods when he declared himself a born-again Christian and subsequently released a trilogy of Christian albums; Slow Train Coming in 1979, Saved in 1980 and Shot of Love in 1981. To the relief of fans, Dylan's Christian phase was short-lived. Just four years after the release of his first Christian album, Dylan put out the secular Infidels in 1983 to favourable reviews. Dylan's following '80s releases were largely panned by critics and rejected by fans. However, in 1989 he made yet another comeback with Oh Mercy which was cheered by many critics as his best release since Blood on the Tracks. Unfortunately, his next album, Under the Red Sky, did not generate the same kind of excitement and praise as Oh Mercy and was largely panned in the same way many of his '80s releases were. Dylan took a break from recording after his 1990 release Under the Red Sky and didn't record another studio album until Good as I Been to You in late 1992. This album consisted of traditional folk songs as did the album's 1993 follow-up World Gone Wrong. In 1997 Dylan released his first album of original material in seven years. Time Out of Mind was a huge and unexpected commercial and critical success, even winning him a Grammy Award for Album of the Year. In 2001, Dylan followed up Time Out of Mind with another critically acclaimed album, "Love and Theft". He was awarded the Nobel Prize for literature in 2016.</RYM:artistBiography> 
+        </RYM:artist>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist1083148]</RYM:artistRYMIdentifier>
+            <RYM:artistName>Tony Brown</RYM:artistName>
+        </RYM:artist>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist199537]</RYM:artistRYMIdentifier>
+            <RYM:artistName>Paul Griffin</RYM:artistName>
+            <RYM:artistFormed>
+                <RYM:artistFormedDate>6 August 1937</RYM:artistFormedDate>
+                <RYM:artistFormedLocation>New York, NY, United States</RYM:artistFormedLocation>
+                <RYM:artistFormedCause>Born</RYM:artistFormedCause>
+            </RYM:artistFormed>
+            <RYM:artistDisbanded>
+                <RYM:artistDisbandedDate>14 June 2000</RYM:artistDisbandedDate>
+                <RYM:artistDisbandedLocation>New York, NY, United States</RYM:artistDisbandedLocation>
+                <RYM:artistDisbandedCause>Died</RYM:artistDisbandedCause>
+            </RYM:artistDisbanded>
+        </RYM:artist>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist1083147]</RYM:artistRYMIdentifier>
+            <RYM:artistName>Charles Brown III</RYM:artistName>
+        </RYM:artist>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist79336]</RYM:artistRYMIdentifier>
+            <RYM:artistName>Eric Weissberg</RYM:artistName>
+            <RYM:artistFormed>
+                <RYM:artistFormedDate>16 August 1939</RYM:artistFormedDate>
+                <RYM:artistFormedLocation>United States</RYM:artistFormedLocation>
+                <RYM:artistFormedCause>Born</RYM:artistFormedCause>
+            </RYM:artistFormed>
+            <RYM:artistNote>Member of Blue Velvet Band, The Greenbriar Boys, Tarriers</RYM:artistNote>
+        </RYM:artist>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist483620]</RYM:artistRYMIdentifier>
+            <RYM:artistName>Barry Kornfeld</RYM:artistName>
+            <RYM:artistFormed>
+                <RYM:artistFormedDate>17 November 1937</RYM:artistFormedDate>
+                <RYM:artistFormedLocation>New York, NY, United States</RYM:artistFormedLocation>
+                <RYM:artistFormedCause>Born</RYM:artistFormedCause>
+            </RYM:artistFormed>
+            <RYM:artistCurrentLocation>Corona, NY, United States</RYM:artistCurrentLocation>
+            <RYM:artistNote>Member of The Folk Stringers, The Ragtime Jug Stompers</RYM:artistNote>
+        </RYM:artist>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist1002129]</RYM:artistRYMIdentifier>
+            <RYM:artistName>Buddy Cage</RYM:artistName>
+            <RYM:artistFormed>
+                <RYM:artistFormedDate>18 February 1946</RYM:artistFormedDate>
+                <RYM:artistFormedLocation>Toronto, ON, United States</RYM:artistFormedLocation>
+                <RYM:artistFormedCause>Born</RYM:artistFormedCause>
+            </RYM:artistFormed>
+            <RYM:artistCurrentLocation>New York, NY, United States</RYM:artistCurrentLocation>
+            <RYM:artistNote>Member of Great Speckled Bird, New Riders of the Purple Sage</RYM:artistNote>
+        </RYM:artist>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist1065482]</RYM:artistRYMIdentifier>
+            <RYM:artistName>Richard Crooks</RYM:artistName>
+            <RYM:artistNote>Also Known As Richie Crooks, Ritchie Crooks</RYM:artistNote>
+        </RYM:artist>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist1083152]</RYM:artistRYMIdentifier>
+            <RYM:artistName>Thomas McFaul</RYM:artistName>
+        </RYM:artist>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist189251]</RYM:artistRYMIdentifier>
+            <RYM:artistName>Pete Hamill</RYM:artistName>
+            <RYM:artistFormed>
+                <RYM:artistFormedDate>24 June 1935</RYM:artistFormedDate>
+                <RYM:artistFormedLocation>Brooklyn, NY, United States</RYM:artistFormedLocation>
+                <RYM:artistFormedCause>Born</RYM:artistFormedCause>
+            </RYM:artistFormed>
+        </RYM:artist>
+    </RYM:releaseInfo>
+</RYM:RYM>

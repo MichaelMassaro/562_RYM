@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RYM:RYM xmlns:xsi1="http://www.w3.org/2001/XMLSchema-instance"
+    xsi1:schemaLocation="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd rym_schema.xsd" 
+    xmlns:RYM="https://github.com/MichaelMassaro/562_RYM/blob/master/rym_schema.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+    
+    <RYM:releaseInfo> 
+        <RYM:release>
+            <RYM:releaseRYMIdentifier>[Album84874]</RYM:releaseRYMIdentifier>
+            <RYM:releaseType>Mixtape</RYM:releaseType>
+            <RYM:releaseTitle>Exmilitary</RYM:releaseTitle>
+            <RYM:releaseDate>27 April 2011</RYM:releaseDate>
+            <RYM:releaseGenres>
+                <RYM:releasePrimaryGenres>
+                    <RYM:releasePrimaryGenre>
+                        <RYM:releasePrimaryGenreRYMIdentifier>[Genre16]</RYM:releasePrimaryGenreRYMIdentifier>
+                        <RYM:releasePrimaryGenreName>Hardcore Hip Hop</RYM:releasePrimaryGenreName>
+                        <RYM:releasePrimaryGenreDescription>One of the more common forms of hip hop, Hardcore emerged out of the early 1980s in a response to the music's growing commercial appeal. As hip hop continued to focus on boasting and party rhymes, artists such as Run-D.M.C. and Kool Moe Dee popularized a new form of hip hop. Driven by aggressive drum machine beats and layered samples rather than synthesizers and simpler funk breaks, these artists aimed to make music that more closely reflected the harsh environments they lived in. Pioneering artists such as KRS-One and Chuck D took these ideas further, delivering aggressive stories of the street on top of loud, in your face sample-based music. These beats were often piano-, guitar- or brass-based, focusing on brief and attention-grabbing blasts of noise to push the MC's message. While the subject matter often addresses issues of gang-related violence, drug trafficking, promiscuous sex and other topics attributed to Gangsta Rap, hardcore hip-hop tends to stay within the boundaries of battle raps or social commentary from the artist's personal point of view, whereas gangster rappers adopted and spoke specifically from a gangster's perspective regardless of being a gangster or not.</RYM:releasePrimaryGenreDescription>
+                    </RYM:releasePrimaryGenre>
+                    <RYM:releasePrimaryGenre>
+                        <RYM:releasePrimaryGenreRYMIdentifier>[Genre31871]</RYM:releasePrimaryGenreRYMIdentifier>
+                        <RYM:releasePrimaryGenreName>Industrial Hip Hop</RYM:releasePrimaryGenreName>
+                        <RYM:releasePrimaryGenreDescription>Industrial hip hop is an Experimental Hip Hop genre that uses Industrial Music beats and sounds. The production style is generally very dissonant, featuring atonal Noise and loud, distorted drums. Vocals are usually more aggressive than typical hip hop and are sometimes shouted. Lyrical content is usually disturbing and/or confrontational, typically involving dystopian or political themes, and other subject matter typical of industrial music (e.g. war, sexual abuse, BDSM, cults, etc). Industrial hip hop originated in the late 1980s, inspired by several attempts to combine industrial music with Hardcore Hip Hop and Dub. Public Enemy's intensity and use of unconventional noise elements inspired a darker form of hip hop. Mark Stewart (of The Pop Group) worked with the house band of Sugar Hill Records to blend industrial with elements of dub on As the Veneer of Democracy Starts to Fade. In 1988, The Beatnigs pioneered the genre on their debut album. The next year, the Sugar Hill Records band collaborated with Tackhead to blend industrial with Funk Rock and dub. Consolidated and The Disposable Heroes of Hiphoprisy were also influential on the genre's development. Some contemporary practitioners of the genre employ more Electronic elements in their music, from genres such as Illbient and Glitch Hop.</RYM:releasePrimaryGenreDescription>
+                    </RYM:releasePrimaryGenre>
+                    <RYM:releasePrimaryGenre>
+                        <RYM:releasePrimaryGenreRYMIdentifier>[Genre39]</RYM:releasePrimaryGenreRYMIdentifier>
+                        <RYM:releasePrimaryGenreName>Experiemental Hip Hop</RYM:releasePrimaryGenreName>
+                        <RYM:releasePrimaryGenreDescription>Experimental Hip Hop is a style of Hip Hop music that refers to the experimental use of eccentric hip hop elements (usually including but not limited to abstract lyrics) in ways unconventional and considered unsuitable for traditional Hip Hop music. While Abstract Hip Hop and Experimental Hip Hop are sometimes used interchangeably, Abstract Hip Hop differs from Experimental Hip Hop in that the former refers directly to Hip Hop music with abstract lyrical content, while Experimental Hip Hop is an umbrella term for Hip Hop music that embodies elements of the genre that fall outside the constraints of convention. Experimental Hip Hop is usually electronically produced and sometimes incorporates elements of other sub-genres such as Turntablism or Plunderphonics.</RYM:releasePrimaryGenreDescription>
+                    </RYM:releasePrimaryGenre>
+                    <RYM:releasePrimaryGenre>
+                        <RYM:releasePrimaryGenreRYMIdentifier>[Genre108]</RYM:releasePrimaryGenreRYMIdentifier>
+                        <RYM:releasePrimaryGenreName>Abstract Hip Hop</RYM:releasePrimaryGenreName>
+                        <RYM:releasePrimaryGenreDescription>Abstract hip hop is a style of Hip Hop which eschews many of the genre's conventions. It has become a fixture of the underground hip hop scene since the early 2000s. Lyrically, artists tend to focus on more abstract ideas such as existentialism or social institutions rather than everyday problems or braggadocio. The language and presentation of these lyrics also tends to avoid the more upfront, visceral language of typical hip hop, instead preferring extensive metaphors and symbolic word choice. Many artists tend to deviate from the typical conventions of rhyme and rhythm, often employing flows that border on Spoken Word. Musically, most abstract artists also feature unconventional beats that are akin in style to that of Experimental Hip Hop.</RYM:releasePrimaryGenreDescription>
+                    </RYM:releasePrimaryGenre>
+                </RYM:releasePrimaryGenres>
+                <RYM:releaseSecondaryGenres>
+                    <RYM:releaseSecondaryGenre>
+                        <RYM:releaseSecondaryGenreRYMIdentifier>[Genre266]</RYM:releaseSecondaryGenreRYMIdentifier>
+                        <RYM:releaseSecondaryGenreName>Glitch Hop</RYM:releaseSecondaryGenreName>
+                        <RYM:releaseSecondaryGenreDescription>Glitch hop, as the name implies, is a combination of Hip Hop beats with elements of Glitch music. While the genre has its early roots in the late 1990s with IDM artists such as Autechre and Funkstorung, glitch hop really started to take shape in the early 2000s with electronic producers Prefuse 73 and Dabrye (both of whom released their debut albums on June 11 2001) fusing Hip Hop instrumentals with glitchy effects and techniques including beat repeaters, sweeps cutting, skipping, repeating, chopping and bit crush reduction. Later in the mid 2000s, artists from Los Angeles such as Daedelus and edIT further expanded the genre by including influences from other music genres such as Folktronica. In 2006, the Low End Theory night club was established in Los Angeles by producer and Alpha Pup Records label head Daddy Kev and would become the epicenter of the burgeoning Los Angeles' instrumental hip hop scene. The collective of producers that would frequent the venue (including Flying Lotus and his associated Brainfeeder label, Nosaj Thing, The Gaslamp Killer and Shlohmo) became associated with the colloquially titled L.A. beat scene. These artists employed J Dilla's unqantised and off-kilter approach to beatmaking and experimented with other different styles and techniques, melding Instrumental Hip Hop, Dubstep, Ambient and Jazz music among other genres. Many of these artists went on to define the Wonky sound. By the 2010s, the genre was adopted by Electronic Dance Music DJs that increasingly drew influence from the maximalist, bass-focused sounds of Brostep and Neurofunk with acts like edIT's The Glitch Mob, Pretty Lights and KOAN Sound headlining festivals around the world. Meanwhile, producers on independent labels such as Matthewdavid's Leaving Records continued to push the boundaries of the genre by stripping away traditional structure, rhythm and form. The fractured, lo-fi sample constructions of artists like Ahnnu and dakim blurred the lines between sample based hip hop, Plunderphonics and experimental Sound Collage.</RYM:releaseSecondaryGenreDescription>
+                    </RYM:releaseSecondaryGenre>
+                </RYM:releaseSecondaryGenres>
+            </RYM:releaseGenres>
+            <RYM:releaseDescriptor>aggressive</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>misanthropic</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>drugs</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>raw</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>nihilistic</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>sampling</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>male vocals</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>crime</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>angry</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>noisy</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>energetic</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>manic</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>vulgar</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>dark</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>hedonistic</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>abstract</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>anxious</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>futuristic</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>heavy</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>cryptic</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>violence</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>chaotic</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>avant-garde</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>boastful</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>introspective</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>rhythmic</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>existential</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>rebellious</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>tribal</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>psychedelic</RYM:releaseDescriptor>
+            <RYM:releaseDescriptor>eclectic</RYM:releaseDescriptor>
+            <RYM:releaseLanguage>English</RYM:releaseLanguage>
+            <RYM:releaseArt>https://e.snmc.io/i/fullres/s/261b220ac09be6686d078e5f7e1a27b1/7024368</RYM:releaseArt>
+            <RYM:releaseTracks>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Beware</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>1</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>5:53</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Guillotine</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>2</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>3:43</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Spread Eagle Cross the Block</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>3</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>3:52</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Lord of the Game</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>4</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>3:30</RYM:releaseTrackLength>
+                    <RYM:releaseTrackCredits>
+                        <RYM:releaseTrackCreditArtistName>Mexican Girl</RYM:releaseTrackCreditArtistName>
+                        <RYM:releaseTrackCreditRole>vocals</RYM:releaseTrackCreditRole>
+                    </RYM:releaseTrackCredits>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Takyon (Death Yon)</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>5</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>2:48</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Cut Throat (Instrumental)</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>6</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>1:12</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Klink</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>7</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>3:32</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Culture Shock</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>8</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>4:21</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>5D</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>9</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>0:43</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Thru the Walls</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>10</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>3:56</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Known for It</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>11</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>4:13</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>I Want It I Need It (Death Heated)</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>12</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>6:11</RYM:releaseTrackLength>
+                </RYM:releaseTrack>
+                <RYM:releaseTrack>
+                    <RYM:releaseTrackName>Blood Creepin</RYM:releaseTrackName>
+                    <RYM:releaseTrackPosition>13</RYM:releaseTrackPosition>
+                    <RYM:releaseTrackLength>4:50</RYM:releaseTrackLength>
+                </RYM:releaseTrack> 
+            </RYM:releaseTracks>
+            <RYM:releaseLength>48:44</RYM:releaseLength>
+            <RYM:releaseCredits>
+                <RYM:releaseCredit>
+                    <RYM:releaseCreditArtistRYMIdentifier>[Artist693744]</RYM:releaseCreditArtistRYMIdentifier>
+                    <RYM:releaseCreditArtistName>Death Grips</RYM:releaseCreditArtistName>
+                    <RYM:releaseCreditArtistRole>composer</RYM:releaseCreditArtistRole>
+                    <RYM:releaseCreditArtistRole>performer</RYM:releaseCreditArtistRole>
+                </RYM:releaseCredit>         
+            </RYM:releaseCredits>           
+        </RYM:release>
+        <RYM:artist>
+            <RYM:artistRYMIdentifier>[Artist693744]</RYM:artistRYMIdentifier>
+            <RYM:artistName>Death Grips</RYM:artistName>
+            <RYM:artistFormed>
+                <RYM:artistFormedDate>21 December 2010</RYM:artistFormedDate>
+                <RYM:artistFormedLocation>Sacramento, CA, United States</RYM:artistFormedLocation>
+            </RYM:artistFormed>  
+            <RYM:artistMembers>
+                <RYM:artistMember>
+                    <RYM:artistMemberRYMIdentifier>[Artist1039400]</RYM:artistMemberRYMIdentifier>
+                    <RYM:artistMemberName>Stefan Burnett</RYM:artistMemberName>
+                    <RYM:artistMemberDateJoined>2010</RYM:artistMemberDateJoined>
+                    <RYM:artistMemberRole>vocals</RYM:artistMemberRole>
+                    <RYM:artistMemberRole>lyricist</RYM:artistMemberRole>
+                </RYM:artistMember>
+                <RYM:artistMember>
+                    <RYM:artistMemberRYMIdentifier>[Artist1100746]</RYM:artistMemberRYMIdentifier>
+                    <RYM:artistMemberName>Andy Morin</RYM:artistMemberName>
+                    <RYM:artistMemberDateJoined>2010</RYM:artistMemberDateJoined>
+                    <RYM:artistMemberRole>production</RYM:artistMemberRole>
+                    <RYM:artistMemberRole>keyboards</RYM:artistMemberRole>
+                    <RYM:artistMemberRole>synthesizer</RYM:artistMemberRole>
+                    <RYM:artistMemberRole>programming</RYM:artistMemberRole>
+                    <RYM:artistMemberRole>bass</RYM:artistMemberRole>
+                    <RYM:artistMemberRole>visual artist</RYM:artistMemberRole>
+                </RYM:artistMember>
+                <RYM:artistMember>
+                    <RYM:artistMemberRYMIdentifier>[Artist334931]</RYM:artistMemberRYMIdentifier>
+                    <RYM:artistMemberName>Zach Hill</RYM:artistMemberName>
+                    <RYM:artistMemberDateJoined>2010</RYM:artistMemberDateJoined>
+                    <RYM:artistMemberRole>production</RYM:artistMemberRole>
+                    <RYM:artistMemberRole>drums</RYM:artistMemberRole>
+                    <RYM:artistMemberRole>keyboards</RYM:artistMemberRole>
+                    <RYM:artistMemberRole>synthesizer</RYM:artistMemberRole>
+                    <RYM:artistMemberRole>programming</RYM:artistMemberRole>
+                </RYM:artistMember> 
+            </RYM:artistMembers>    
+        </RYM:artist>
+        <RYM:artist>
+            <RYM:artistName>Mexican Girl</RYM:artistName>
+        </RYM:artist>
+    </RYM:releaseInfo>
+</RYM:RYM>
